@@ -32,38 +32,38 @@
                 <ul id="navmenu" class="list-unstyled">
                     <li>
                         <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-1" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#grupo-san-francisco">
-                            Nosotros
+                            <?php _e( 'Nosotros', 'comsa-steel' ); ?>
                         </a>
                     </li>
                     <li>
                         <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-2" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#servicios">
-                            Servicios
+                            <?php _e( 'Servicios', 'comsa-steel' ); ?>
                         </a>
                     </li>
                     <li>
                         <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-3" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#confian">
-                            Clientes
+                            <?php _e( 'Clientes', 'comsa-steel' ); ?>
                         </a>
                     </li>
                     <li>
                         <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-4" href="#<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>noticias">
-                            News
+                            <?php _e( 'Noticias', 'comsa-steel' ); ?>
                         </a>
                     </li>
                     <li>
                         <a class="anchor" id="btn-nav-5" href="#contacto">
-                            Contacto
+                            <?php _e( 'Contacto', 'comsa-steel' ); ?>
                         </a>
                     </li>
                     <li>
                         <a class="anchor" id="btn-nav-6" href="#contacto">
-                            Cotiza tu proyecto
+                            <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                         </a>
                     </li>
                 </ul>
             </nav>
             <a href="#contacto" class="anchor btn btn-primary" id="btn-contacto">
-                Contáctanos
+                <?php _e( 'Contáctanos', 'comsa-steel' ); ?>
             </a>
             <div id="social">
                 <ul class="list-inline">
@@ -115,32 +115,32 @@
                         <ul class="list-inline">
                             <li class="list-inline-item">
                                 <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#grupo-san-francisco">
-                                    Nosotros
+                                    <?php _e( 'Nosotros', 'comsa-steel' ); ?>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#servicios">
-                                    Servicios
+                                    <?php _e( 'Servicios', 'comsa-steel' ); ?>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#confian">
-                                    Clientes
+                                    <?php _e( 'Clientes', 'comsa-steel' ); ?>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#noticias">
-                                    News
+                                    <?php _e( 'Noticias', 'comsa-steel' ); ?>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a class="anchor" href="#contacto">
-                                    Contacto
+                                    <?php _e( 'Contacto', 'comsa-steel' ); ?>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                                    Cotiza tu proyecto
+                                    <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                                 </a>
                             </li>
                         </ul>
