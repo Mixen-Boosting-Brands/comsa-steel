@@ -46,7 +46,7 @@
                         </a>
                     </li>
                     <li>
-                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-4" href="#<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>noticias">
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-4" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#noticias">
                             <?php _e( 'Noticias', 'comsa-steel' ); ?>
                         </a>
                     </li>
