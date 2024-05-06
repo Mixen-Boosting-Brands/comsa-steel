@@ -18,7 +18,7 @@
 
 	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php if( !is_page(8) ): ?>class="is-single"<?php endif; ?>>
     <div id="backdrop"></div>
     <div class="menu">
         <a id="cerrar-menu" href="javascript:void(0)">
