@@ -1,24 +1,28 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
-		<!-- section -->
-		<section>
+    <section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-404.png">
+		<div id="overlay"></div>
+	</section>
 
-			<!-- article -->
-			<article id="post-404">
+    <section id="body" class="py-60">
+        <div class="container">
+            <div class="row mb-1 mb-lg-3">
+                <div class="col">
+					<h1 class="titulo-page">
+                        <span class="fs-4">Error 404: Página no encontrada 🫤</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+					<p>
+					La página que solicitaste no se encontró. Algunas posibles causas son que haya cambiado de lugar, o que de plano haya sido eliminada del servidor. <a href="<?php echo esc_url( home_url() ); ?>">Haz clic aquí</a> para regresar al inicio.
+					</p>
 
-				<h1><?php esc_html_e( 'Page not found', 'html5blank' ); ?></h1>
-				<h2>
-					<a href="<?php echo esc_url( home_url() ); ?>"><?php esc_html_e( 'Return home?', 'html5blank' ); ?></a>
-				</h2>
-
-			</article>
-			<!-- /article -->
-
-		</section>
-		<!-- /section -->
-	</main>
-
-<?php get_sidebar(); ?>
+					<?php edit_post_link(); ?>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <?php get_footer(); ?>
