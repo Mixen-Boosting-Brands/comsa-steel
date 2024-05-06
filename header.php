@@ -51,7 +51,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-5" href="#contacto">
+                        <a id="btn-nav-5" href="<?php echo get_permalink( 2 ); ?>">
                             <?php _e( 'Contacto', 'comsa-steel' ); ?>
                         </a>
                     </li>
@@ -134,7 +134,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="anchor" href="#contacto">
+                                <a href="<?php echo get_permalink( 2 ); ?>">
                                     <?php _e( 'Contacto', 'comsa-steel' ); ?>
                                 </a>
                             </li>

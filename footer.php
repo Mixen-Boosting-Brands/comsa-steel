@@ -81,7 +81,7 @@
                             <nav>
                                 <ul class="list-unstyled">
                                     <li class="mb-1 mb-lg-3">
-                                        <a href="#">
+                                        <a href="<?php echo get_permalink( 3 ); ?>">
 											<?php _e( 'Política de Privacidad', 'comsa-steel' ); ?>
                                         </a>
                                     </li>
