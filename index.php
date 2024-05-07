@@ -466,26 +466,40 @@
         </div>
     </section>
 
+<?php
+    $args = array(
+        'category_name' => 'noticias', // Specify the category slug here
+        'posts_per_page' => 1,    // Use -1 to fetch all posts from the category
+    );
+
+    $blogQuery = new WP_Query($args);
+    if ($blogQuery->have_posts()): while ($blogQuery->have_posts()) : $blogQuery->the_post();
+?>
     <section id="noticias" class="common-dark py-60">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-6 my-auto">
+            <div class="row">
+                <div class="col-6 my-auto">
                     <hr>
                     <h1>
                         <?php _e( 'Noticias', 'comsa-steel' ); ?>
                     </h1>
                 </div>
-                <div class="col-lg-6 my-3 my-lg-auto">
+                <div class="col-6 my-3 my-lg-auto">
                     <div class="row">
                         <div class="col-12">
                             <p class="text-small text-muted mb-0"><?php _e( 'Ordenar por:', 'comsa-steel' ); ?></p>
                             <nav>
-                                <div class="navs d-flex justify-content-start" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true">Generales</button>
-                                    <button class="nav-link" id="nav-cat-2-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-2" type="button" role="tab" aria-controls="nav-cat-2" aria-selected="false">Construcción</button>
-                                    <button class="nav-link" id="nav-cat-3-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-3" type="button" role="tab" aria-controls="nav-cat-3" aria-selected="false">El equipo</button>
-                                    <button class="nav-link" id="nav-cat-4-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-4" type="button" role="tab" aria-controls="nav-cat-4" aria-selected="false">Novedades</button>
-                                    <button class="nav-link" id="nav-cat-5-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-5" type="button" role="tab" aria-controls="nav-cat-5" aria-selected="false">Interés</button>
+                                <div class="navs d-flex flex-wrap justify-content-start" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true">Todas</button>
+                                <?php
+                                    $tags = get_tags();
+
+                                    if ($tags): $counterTags = 2; foreach ($tags as $tag):
+                                ?>
+                                    <button class="nav-link" id="nav-cat-<?php echo $counterTags; ?>-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-<?php echo $counterTags; ?>" type="button" role="tab" aria-controls="nav-cat-<?php echo $counterTags; ?>" aria-selected="false"><?php echo esc_html($tag->name); ?></button>
+                                <?php 
+                                    $counterTags++; endforeach; endif;
+                                ?>
                                 </div>
                             </nav>
                         </div>
@@ -497,149 +511,105 @@
                     <div class="tab-content" id="nav-blog">
                         <div class="tab-pane fade show active" id="nav-cat-1" role="tabpanel" aria-labelledby="nav-cat-1-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
+                            <?php
+                                $args = array(
+                                    'category_name' => 'noticias', // Specify the category slug here
+                                    'posts_per_page' => 2,    // Use -1 to fetch all posts from the category
+                                    // 'orderby' => 'rand',
+                                );
+
+                                $query = new WP_Query($args);
+
+                                if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
+                                    $excerpt = get_the_excerpt();
+                                    $words = explode(' ', $excerpt);
+                                    
+                                    if (count($words) > 30) {
+                                        $words = array_slice($words, 0, 30);
+                                        $excerpt = implode(' ', $words) . '...';
+                                    }
+                            ?>
+                                <div class="col-lg-6 mb-3">
+                                    <a href="<?php the_permalink(); ?>">
+                                        <?php the_post_thumbnail('home-blog', array('class' => 'img-fluid')); ?>
                                     </a>
-                                    <a href="#">
+                                    <a href="<?php the_permalink(); ?>">
                                         <h2 class="mt-3">
-                                            AI & the marketing world
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
+                                            <?php the_title(); ?>
+                                            <span class="date badge bg-secondary rounded-pill">
+                                                <time datetime="<?php the_time('Y-m-d'); ?> <?php the_time('H:i'); ?>">
+                                                    <?php echo get_the_date('M j, Y'); ?>
+                                                </time>
+                                            </span>
                                         </h2>
                                     </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
+                                    <?php echo $excerpt; ?>
                                 </div>
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            The MIT Museum
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
+                            <?php 
+                                endwhile; endif;
+                                wp_reset_postdata();
+                            ?>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-cat-2" role="tabpanel" aria-labelledby="nav-cat2-tab" tabindex="0">
+                    <?php
+                        $tags = get_tags();
+
+                        if ($tags): $counterTabs = 2; foreach ($tags as $tag):
+                    ?>
+                        <div class="tab-pane fade" id="nav-cat-<?php echo $counterTabs; ?>" role="tabpanel" aria-labelledby="nav-cat-<?php echo $counterTabs; ?>-tab" tabindex="0">
                             <div class="row">
+                            <?php
+                                $args = array(
+                                    'category_name' => 'noticias', // Specify the category slug here
+                                    'posts_per_page' => 2,    // Use -1 to fetch all posts from the category
+                                    'tag__in' => array($tag->term_id), // Pass an array of tag IDs
+                                );
+
+                                $query = new WP_Query($args);
+
+                                if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
+                                    $excerpt = get_the_excerpt();
+                                    $words = explode(' ', $excerpt);
+                                    
+                                    if (count($words) > 30) {
+                                        $words = array_slice($words, 0, 30);
+                                        $excerpt = implode(' ', $words) . '...';
+                                    }
+                            ?>
                                 <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
+                                    <a href="<?php the_permalink(); ?>">
+                                        <?php the_post_thumbnail('home-blog', array('class' => 'img-fluid')); ?>
                                     </a>
-                                    <a href="#">
+                                    <a href="<?php the_permalink(); ?>">
                                         <h2 class="mt-3">
-                                            AI & the marketing world
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
+                                            <?php the_title(); ?>
+                                            <span class="date badge bg-secondary rounded-pill">
+                                                <time datetime="<?php the_time('Y-m-d'); ?> <?php the_time('H:i'); ?>">
+                                                    <?php echo get_the_date('M j, Y'); ?>
+                                                </time>
+                                            </span>
                                         </h2>
                                     </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
+                                    <?php echo $excerpt; ?>
                                 </div>
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            The MIT Museum
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
+                            <?php 
+                                endwhile; endif;
+                                wp_reset_postdata();
+                            ?>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-cat-3" role="tabpanel" aria-labelledby="nav-cat-3-tab" tabindex="0">
-                            <div class="row">
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            AI & the marketing world
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            The MIT Museum
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-cat-4" role="tabpanel" aria-labelledby="nav-cat-4-tab" tabindex="0">
-                            <div class="row">
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            AI & the marketing world
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            The MIT Museum
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-cat-5" role="tabpanel" aria-labelledby="nav-cat-5-tab" tabindex="0">
-                            <div class="row">
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            AI & the marketing world
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.webp" alt="" class="img-fluid" loading="lazy">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            The MIT Museum
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
+                    <?php 
+                        $counterTabs++; endforeach; endif;
+                    ?>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+<?php 
+    endwhile; endif;
+    wp_reset_postdata();
+?>
 
     <section id="contacto" class="common-light py-60">
         <div class="container">
