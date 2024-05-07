@@ -144,6 +144,7 @@
                                     <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                                 </a>
                             </li>
+                            <?php pll_the_languages( array( 'dropdown' => 1 ) ); ?>
                         </ul>
                     </nav>
                 </div>
