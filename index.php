@@ -19,17 +19,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="swiper-slide my-auto swiper-decor">
-                                <div class="row">
-                                    <div class="col-xl-8 offset-xl-2 my-auto text-center overflow-hidden">
-                                        <div>
-                                            <hr>
-                                            <h1><?php _e( 'Desarrollemos', 'comsa-steel' ); ?> <span class="color-primary"><?php _e( 'proyectos', 'comsa-steel' ); ?></span> <?php _e( 'impactantes juntos', 'comsa-steel' ); ?> 2</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
 
                         <!-- If we need pagination -->
