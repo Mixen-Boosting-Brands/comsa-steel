@@ -61,6 +61,9 @@
                             <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                         </a>
                     </li>
+                    <li>
+                        <?php pll_the_languages( array( 'dropdown' => 1 ) ); ?>
+                    </li>
                 </ul>
             </nav>
             <a href="#contacto" class="anchor btn btn-primary" id="btn-contacto">
@@ -144,7 +147,9 @@
                                     <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                                 </a>
                             </li>
-                            <?php pll_the_languages( array( 'dropdown' => 1 ) ); ?>
+                            <li class="list-inline-item">
+                                <?php pll_the_languages( array( 'dropdown' => 1 ) ); ?>
+                            </li>
                         </ul>
                     </nav>
                 </div>
