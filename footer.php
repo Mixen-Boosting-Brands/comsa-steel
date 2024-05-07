@@ -28,16 +28,11 @@
                                         </address>
                                     </li>
                                     <li class="color-black">
-										<?php _e( 'Nuestra opinión', 'comsa-steel' ); ?>
+										<?php _e( 'Lo más reciente', 'comsa-steel' ); ?>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="#">
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="anchor" href="#">
-                                            The Team
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#noticias">
+                                            <?php _e( 'Noticias', 'comsa-steel' ); ?>
                                         </a>
                                     </li>
                                 </ul>
@@ -57,19 +52,6 @@
                                     <li class="mb-5">
                                         <a href="tel:+526141234567">
                                             +52 (614) 123 4567
-                                        </a>
-                                    </li>
-                                    <li class="color-black">
-										<?php _e( 'Proyectos', 'comsa-steel' ); ?>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Proyecto 1
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Proyecto 2
                                         </a>
                                     </li>
                                 </ul>
