@@ -143,11 +143,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 11 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Fabricación', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 11 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -156,11 +156,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 13 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Ingeniería y Detallado', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 13 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -169,11 +169,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 15 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Preconstrucción', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 15 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -182,11 +182,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 17 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Joist and Deck Supplier', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 17 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -195,11 +195,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 19 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Project Management', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 19 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -208,11 +208,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 21 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Montaje', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 21 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -225,12 +225,12 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 11 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Fabricación', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 11 ); ?>">
-                                            <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>">
+                                                <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -238,11 +238,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 13 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Ingeniería y Detallado', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 13 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -251,11 +251,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 15 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Preconstrucción', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 15 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -264,11 +264,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 17 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Joist and Deck Supplier', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 17 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -277,11 +277,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 19 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Project Management', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 19 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -290,11 +290,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 21 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Montaje', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 21 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -307,12 +307,12 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 11 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Fabricación', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 11 ); ?>">
-                                            <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>">
+                                                <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -320,11 +320,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 13 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Ingeniería y Detallado', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 13 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -333,11 +333,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 15 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Preconstrucción', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 15 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -346,11 +346,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 17 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Joist and Deck Supplier', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 17 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -359,11 +359,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 19 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Project Management', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 19 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>
@@ -372,11 +372,11 @@
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;">
                                         <div class="overlay">
-                                            <a href="<?php echo get_permalink( 21 ); ?>"></a>
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
                                         <div>
                                             <h1><?php _e( 'Montaje', 'comsa-steel' ); ?></h1>
-                                            <a href="<?php echo get_permalink( 21 ); ?>">
+                                            <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
                                         </div>

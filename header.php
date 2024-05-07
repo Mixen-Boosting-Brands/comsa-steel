@@ -1,3 +1,4 @@
+<?php $currentlang = get_bloginfo('language'); ?>
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
