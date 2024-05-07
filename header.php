@@ -19,7 +19,7 @@
 
 	<?php wp_head(); ?>
 </head>
-<body <?php if( !is_page(8) ): ?>class="is-single"<?php endif; ?>>
+<body <?php if( !is_home() ): ?>class="is-single"<?php endif; ?>>
     <div id="backdrop"></div>
     <div class="menu">
         <a id="cerrar-menu" href="javascript:void(0)">
@@ -93,7 +93,7 @@
             <div id="contacto-menu">
                 <ul class="list-unstyled">
                     <li>
-                        <i class="far fa-envelope"></i> <a href="mailto:cmail@domain.com">mail@domain.com</a>
+                        <i class="far fa-envelope"></i> <a href="<?php if ( $currentlang == "en-US" ): ?>mailto:joserios@comsasteel.com<?php else: ?>mailto:dhernandez@comsaestructuras.com<?php endif; ?>"><?php if ( $currentlang == "en-US" ): ?>joserios@comsasteel.com<?php else: ?>dhernandez@comsaestructuras.com<?php endif; ?></a>
                     </li>
                     <li>
                         <i class="fas fa-phone"></i> <a href="tel:+526141234567">(614) 123 4567</a>
