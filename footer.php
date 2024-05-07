@@ -78,7 +78,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="mb-0">&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. <?php _e( 'Todos los derechos reservdos', 'comsa-steel' ); ?>.</p>
+                    <p class="mb-0">&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. <?php _e( 'Todos los derechos reservados', 'comsa-steel' ); ?>.</p>
                 </div>
                 <div class="col text-end">
                     <p class="mb-0">Made with <i class="fa-solid fa-heart" alt="love" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="love"></i> @ <a href="https://mixen.mx/" target="_blank">Mixen</a></p>
