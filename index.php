@@ -132,7 +132,7 @@
             <div class="row mb-4">
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h1 class="mb-4"><?php _e( 'Conoce nuestros servicios', 'comsa-steel' ); ?></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut magnam perferendis mollitia dolores odit distinctio ea a corporis? Fuga accusantium eius ad? Ipsa non doloremque quas provident, eum error!</p>
+                    <!-- p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut magnam perferendis mollitia dolores odit distinctio ea a corporis? Fuga accusantium eius ad? Ipsa non doloremque quas provident, eum error!</p -->
                 </div>
             </div>
             <div class="row">
@@ -152,12 +152,12 @@
                         <div class="tab-pane fade show active" id="pills-todos" role="tabpanel" aria-labelledby="pills-todos-tab" tabindex="0">
                             <div class="row masonry-grid" data-masonry='{"percentPosition": true }'>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-servicio.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;">
                                         <div class="overlay">
                                             <a href="#"></a>
                                         </div>
                                         <div>
-                                            <h1><?php _e( 'Servicio', 'comsa-steel' ); ?></h1>
+                                            <h1><?php _e( 'Fabricación', 'comsa-steel' ); ?></h1>
                                             <a href="#">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
@@ -165,12 +165,12 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-servicio.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;">
                                         <div class="overlay">
                                             <a href="#"></a>
                                         </div>
                                         <div>
-                                            <h1><?php _e( 'Servicio', 'comsa-steel' ); ?></h1>
+                                            <h1><?php _e( 'Ingeniería y Detallado', 'comsa-steel' ); ?></h1>
                                             <a href="#">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
@@ -178,12 +178,12 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-servicio.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;">
                                         <div class="overlay">
                                             <a href="#"></a>
                                         </div>
                                         <div>
-                                            <h1><?php _e( 'Servicio', 'comsa-steel' ); ?></h1>
+                                            <h1><?php _e( 'Preconstrucción', 'comsa-steel' ); ?></h1>
                                             <a href="#">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
@@ -191,12 +191,12 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-servicio.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;">
                                         <div class="overlay">
                                             <a href="#"></a>
                                         </div>
                                         <div>
-                                            <h1><?php _e( 'Servicio', 'comsa-steel' ); ?></h1>
+                                            <h1><?php _e( 'Joist and Deck Supplier', 'comsa-steel' ); ?></h1>
                                             <a href="#">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
@@ -204,12 +204,12 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-servicio.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;">
                                         <div class="overlay">
                                             <a href="#"></a>
                                         </div>
                                         <div>
-                                            <h1><?php _e( 'Servicio', 'comsa-steel' ); ?></h1>
+                                            <h1><?php _e( 'Project Management', 'comsa-steel' ); ?></h1>
                                             <a href="#">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
@@ -217,12 +217,12 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-servicio.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;">
                                         <div class="overlay">
                                             <a href="#"></a>
                                         </div>
                                         <div>
-                                            <h1><?php _e( 'Servicio', 'comsa-steel' ); ?></h1>
+                                            <h1><?php _e( 'Montaje', 'comsa-steel' ); ?></h1>
                                             <a href="#">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
                                             </a>
@@ -231,7 +231,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-fabricacion" role="tabpanel" aria-labelledby="pills-fabricacion-tab" tabindex="0">
+                        <!-- div class="tab-pane fade" id="pills-fabricacion" role="tabpanel" aria-labelledby="pills-fabricacion-tab" tabindex="0">
                             <div class="row masonry-grid" data-masonry='{"percentPosition": true }'>
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-servicio.webp') no-repeat;">
@@ -312,8 +312,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-ingenieria" role="tabpanel" aria-labelledby="pills-ingenieria-tab" tabindex="0">
+                        </div -->
+                        <!-- div class="tab-pane fade" id="pills-ingenieria" role="tabpanel" aria-labelledby="pills-ingenieria-tab" tabindex="0">
                             <div class="row masonry-grid" data-masonry='{"percentPosition": true }'>
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-servicio.webp') no-repeat;">
@@ -394,7 +394,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div -->
                     </div>
                 </div>
             </div>
