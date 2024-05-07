@@ -137,7 +137,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-duration="1000">
+                    <!-- ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-duration="1000">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link rounded-pill active" id="pills-todos-tab" data-bs-toggle="pill" data-bs-target="#pills-todos" type="button" role="tab" aria-controls="pills-todos" aria-selected="true">Todos</button>
                         </li>
@@ -147,7 +147,7 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link rounded-pill" id="pills-ingenieria-tab" data-bs-toggle="pill" data-bs-target="#pills-ingenieria" type="button" role="tab" aria-controls="pills-ingenieria" aria-selected="false">Ingeniería</button>
                         </li>
-                    </ul>
+                    </ul -->
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-todos" role="tabpanel" aria-labelledby="pills-todos-tab" tabindex="0">
                             <div class="row masonry-grid" data-masonry='{"percentPosition": true }'>
