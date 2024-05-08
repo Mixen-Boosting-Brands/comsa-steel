@@ -8,7 +8,7 @@
                 <div class="col-lg-6">
                     <div class="row mb-4">
                         <div class="col-6">
-                            <nav>
+                            <nav data-aos="fade-up" data-aos-duration="1000">
                                 <ul class="list-unstyled">
                                     <li class="color-black">
 										<?php _e( 'Encuéntranos', 'comsa-steel' ); ?>
@@ -39,7 +39,7 @@
                             </nav>
                         </div>
                         <div class="col-6">
-                            <nav>
+                            <nav data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                                 <ul class="list-unstyled">
                                     <li class="color-black">
 										<?php _e( 'Teléfonos', 'comsa-steel' ); ?>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <nav>
+                            <nav data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                                 <ul class="list-unstyled">
                                     <li class="mb-1 mb-lg-3">
                                         <a href="<?php echo get_permalink( 3 ); ?>">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer/thumb.webp" alt="" class="img-fluid" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer/thumb.webp" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                 </div>
             </div>
             <div class="row">
