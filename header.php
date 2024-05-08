@@ -26,9 +26,48 @@
             <i class="fas fa-times"></i>
         </a>
         <div class="menu-contenido">
-            <a id="btn-logo" href="<?php echo esc_url( home_url() ); ?>">
-                <img class="logo img-fluid" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo@2x.webp" alt="Comsa Steel" loading="lazy">
+            <a id="btn-logo" href="<?php if ( $currentlang == "en-US" ): ?><?php echo esc_url( home_url() ); ?>/en<?php else: ?><?php echo esc_url( home_url() ); ?><?php endif; ?>">
+                <img class="logo img-fluid" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo@2x.webp" alt="<?php bloginfo( 'name' ); ?>" loading="lazy">
             </a>
+        <?php if ( $currentlang == "en-US" ): ?>
+            <nav>
+                <ul id="navmenu" class="list-unstyled">
+                    <li>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-1" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#grupo-san-francisco">
+                            <?php _e( 'Nosotros', 'comsa-steel' ); ?>
+                        </a>
+                    </li>
+                    <li>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-2" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#servicios">
+                            <?php _e( 'Servicios', 'comsa-steel' ); ?>
+                        </a>
+                    </li>
+                    <li>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-3" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#confian">
+                            <?php _e( 'Clientes', 'comsa-steel' ); ?>
+                        </a>
+                    </li>
+                    <li>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-4" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#noticias">
+                            <?php _e( 'Noticias', 'comsa-steel' ); ?>
+                        </a>
+                    </li>
+                    <li>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-5" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#contacto">
+                            <?php _e( 'Contacto', 'comsa-steel' ); ?>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="btn-nav-6" href="<?php echo get_permalink( 2 ); ?>">
+                            <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
+                        </a>
+                    </li>
+                    <li>
+                        <?php pll_the_languages( array( 'dropdown' => 1 ) ); ?>
+                    </li>
+                </ul>
+            </nav>
+        <?php else: ?>
             <nav>
                 <ul id="navmenu" class="list-unstyled">
                     <li>
@@ -52,12 +91,12 @@
                         </a>
                     </li>
                     <li>
-                        <a id="btn-nav-5" href="<?php echo get_permalink( 2 ); ?>">
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-5" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#contacto">
                             <?php _e( 'Contacto', 'comsa-steel' ); ?>
                         </a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-6" href="#contacto">
+                        <a id="btn-nav-6" href="<?php echo get_permalink( 2 ); ?>">
                             <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                         </a>
                     </li>
@@ -66,6 +105,7 @@
                     </li>
                 </ul>
             </nav>
+        <?php endif; ?>
             <a href="#contacto" class="anchor btn btn-primary" id="btn-contacto">
                 <?php _e( 'Contáctanos', 'comsa-steel' ); ?>
             </a>
@@ -110,11 +150,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-lg-4 my-auto">
-                    <a href="<?php echo esc_url( home_url() ); ?>">
+                    <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo esc_url( home_url() ); ?>/en<?php else: ?><?php echo esc_url( home_url() ); ?><?php endif; ?>">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo@2x.webp" alt="Comsa Steel" class="logo img-fluid" id="logo-navbar" loading="lazy">
                     </a>
                 </div>
                 <div class="col-8 d-none d-lg-block my-auto text-end">
+                <?php if ( $currentlang == "en-US" ): ?>
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#grupo-san-francisco">
+                                    <?php _e( 'Nosotros', 'comsa-steel' ); ?>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#servicios">
+                                    <?php _e( 'Servicios', 'comsa-steel' ); ?>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#confian">
+                                    <?php _e( 'Clientes', 'comsa-steel' ); ?>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#noticias">
+                                    <?php _e( 'Noticias', 'comsa-steel' ); ?>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>/en<?php endif; ?>#contacto">
+                                    <?php _e( 'Contacto', 'comsa-steel' ); ?>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="<?php echo get_permalink( 2 ); ?>">
+                                    <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <?php pll_the_languages( array( 'dropdown' => 1 ) ); ?>
+                            </li>
+                        </ul>
+                    </nav>
+                <?php else: ?>
                     <nav>
                         <ul class="list-inline">
                             <li class="list-inline-item">
@@ -138,12 +217,12 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="<?php echo get_permalink( 2 ); ?>">
+                                <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#contacto">
                                     <?php _e( 'Contacto', 'comsa-steel' ); ?>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="<?php echo get_permalink( 2 ); ?>">
                                     <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                                 </a>
                             </li>
@@ -152,6 +231,7 @@
                             </li>
                         </ul>
                     </nav>
+                <?php endif; ?>
                 </div>
                 <div class="col-6 d-lg-none my-auto text-end">
                     <a id="mburger" href="javascript:void(0)">
