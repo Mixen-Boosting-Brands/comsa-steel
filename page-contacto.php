@@ -19,7 +19,9 @@
                                     <div class="col-xl-8 offset-xl-2 my-auto text-center overflow-hidden">
                                         <div>
                                             <hr>
-                                            <h1 style="color: #ffffff;"><?php _e( 'Cotiza', 'comsa-steel' ); ?> <span class="color-primary"><?php _e( 'tu proyecto', 'comsa-steel' ); ?></span></h1>
+                                            <h1 style="color: #ffffff;">
+                                                <?php _e( 'Cotiza', 'comsa-steel' ); ?> <span class="color-primary"><?php _e( 'tu proyecto', 'comsa-steel' ); ?></span>
+                                            </h1>
                                         </div>
                                     </div>
                                     <div class="col-xl-8 offset-xl-2 my-auto text-center overflow-hidden">
