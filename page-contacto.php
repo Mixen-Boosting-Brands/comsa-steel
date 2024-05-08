@@ -5,7 +5,7 @@
     get_header();
 ?>
 
-    <section id="banner">
+    <section id="banner" style="color: #ffffff;">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -101,10 +101,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
                     </div> 
                 </div>
             </div>
