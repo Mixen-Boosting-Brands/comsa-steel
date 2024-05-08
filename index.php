@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
                     <!-- Slider main container -->
                     <div class="swiper swiper-clientes">
                         <div id="overlay"></div>
@@ -129,7 +129,9 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-8 offset-lg-2 text-center">
-                    <h1 class="mb-4"><?php _e( 'Conoce nuestros servicios', 'comsa-steel' ); ?></h1>
+                    <h1 class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                        <?php _e( 'Conoce nuestros servicios', 'comsa-steel' ); ?>
+                    </h1>
                     <!-- p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut magnam perferendis mollitia dolores odit distinctio ea a corporis? Fuga accusantium eius ad? Ipsa non doloremque quas provident, eum error!</p -->
                 </div>
             </div>
@@ -150,7 +152,7 @@
                         <div class="tab-pane fade show active" id="pills-todos" role="tabpanel" aria-labelledby="pills-todos-tab" tabindex="0">
                             <div class="row masonry-grid" data-masonry='{"percentPosition": true }'>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -163,7 +165,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -176,7 +178,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -189,7 +191,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -202,7 +204,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -215,7 +217,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
