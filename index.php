@@ -517,7 +517,7 @@
                                         <?php echo esc_html($tag->name); ?>
                                     </button>
                                 <?php
-                                    $i + 250;
+                                    $i += 250;
                                     $counterTags++; endforeach; endif;
                                 ?>
                                 </div>
