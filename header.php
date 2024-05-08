@@ -120,7 +120,7 @@
                         </a>
                     </li>
                     <li>
-                        <?php pll_the_languages(); ?>
+                        <?php pll_the_languages(["dropdown" => 1]); ?>
                     </li>
                 </ul>
             </nav>
