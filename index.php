@@ -47,7 +47,7 @@
                             </h1>
                         </div>
                         <div class="col-6 col-lg-4 my-auto">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-vertical@2x.webp" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-vertical@2x.webp" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                         </div>
                     </div>
                 </div>
@@ -59,13 +59,17 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-8 offset-lg-2 text-center">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-gsf@2x.webp" alt="Grupo San Francisco" id="logo-grupo-san-francisco" loading="lazy">
-                    <h1 class="mb-4">Grupo <span class="color-primary">San Francisco</span></h1>
-                    <p><?php _e( 'Nuestra misión consiste en posicionar a cada una de las marcas bajo nuestra administración, como líderes en sus respectivos mercados, a través de un equipo de colaboradores altamente motivados, capacitados y comprometidos.', 'comsa-steel' ); ?></p>
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-gsf@2x.webp" alt="Grupo San Francisco" id="logo-grupo-san-francisco" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <h1 class="mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                        Grupo <span class="color-primary">San Francisco</span>
+                    </h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                        <?php _e( 'Nuestra misión consiste en posicionar a cada una de las marcas bajo nuestra administración, como líderes en sus respectivos mercados, a través de un equipo de colaboradores altamente motivados, capacitados y comprometidos.', 'comsa-steel' ); ?>
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000">
                     <!-- Slider main container -->
                     <div class="swiper swiper-clientes">
                         <div id="overlay"></div>
