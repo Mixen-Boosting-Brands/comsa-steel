@@ -537,10 +537,10 @@
                                     'posts_per_page' => 2,    // Use -1 to fetch all posts from the category
                                     // 'orderby' => 'rand',
                                 );
-
+                                
                                 $query = new WP_Query($args);
 
-                                if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
+                                if ($query->have_posts()): $i = 250; while ($query->have_posts()) : $query->the_post();
                                     $excerpt = get_the_excerpt();
                                     $words = explode(' ', $excerpt);
                                     
@@ -549,7 +549,7 @@
                                         $excerpt = implode(' ', $words) . '...';
                                     }
                             ?>
-                                <div class="col-lg-6 mb-3">
+                                <div class="col-lg-6 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="<?php echo $i; ?>">
                                     <a href="<?php the_permalink(); ?>">
                                         <?php the_post_thumbnail('home-blog', array('class' => 'img-fluid')); ?>
                                     </a>
@@ -565,7 +565,8 @@
                                     </a>
                                     <?php echo $excerpt; ?>
                                 </div>
-                            <?php 
+                            <?php
+                                $i += 250;
                                 endwhile; endif;
                                 wp_reset_postdata();
                             ?>
