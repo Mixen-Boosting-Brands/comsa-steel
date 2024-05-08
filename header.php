@@ -245,7 +245,7 @@
                 </div>
                 <div class="col-6 d-lg-none my-auto text-end">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item d-block d-lg-none">
+                        <li class="list-inline-item d-inline-block d-lg-none">
                             <?php pll_the_languages(["dropdown" => 1]); ?>
                         </li>
                         <li class="list-inline-item">
