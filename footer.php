@@ -93,5 +93,5 @@
 
 	<?php wp_footer(); ?>
 
-<script defer src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/app.617f86bfd89eeed318f9.bundle.js"></script></body>
+<script defer src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/app.be698c8d267132cca259.bundle.js"></script></body>
 </html>
