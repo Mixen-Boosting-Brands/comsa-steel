@@ -150,9 +150,9 @@
     $currentlang == "en-US"
 ): ?>joserios@comsasteel.com<?php else: ?>dhernandez@comsaestructuras.com<?php endif; ?></a>
                     </li>
-                    <li>
+                    <!-- li>
                         <i class="fas fa-phone"></i> <a href="tel:+526141234567">(614) 123 4567</a>
-                    </li>
+                    </li -->
                 </ul>
             </div>
         </div>

@@ -11,7 +11,7 @@
                             <nav data-aos="fade-up" data-aos-duration="1000">
                                 <ul class="list-unstyled">
                                     <li class="color-black">
-										<?php _e( 'Encuéntranos', 'comsa-steel' ); ?>
+										<?php _e("Encuéntranos", "comsa-steel"); ?>
                                     </li>
                                     <li>
                                         <address>
@@ -28,11 +28,20 @@
                                         </address>
                                     </li>
                                     <li class="color-black">
-										<?php _e( 'Lo más reciente', 'comsa-steel' ); ?>
+										<?php _e("Lo más reciente", "comsa-steel"); ?>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#noticias">
-                                            <?php _e( 'Noticias', 'comsa-steel' ); ?>
+                                        <a <?php if (
+                                            is_home()
+                                        ): ?>class="anchor"<?php endif; ?> href="<?php if (
+     !is_home()
+ ):
+     echo esc_url(home_url());
+ endif; ?>#noticias">
+                                            <?php _e(
+                                                "Noticias",
+                                                "comsa-steel"
+                                            ); ?>
                                         </a>
                                     </li>
                                 </ul>
@@ -41,8 +50,8 @@
                         <div class="col-6">
                             <nav data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                                 <ul class="list-unstyled">
-                                    <li class="color-black">
-										<?php _e( 'Teléfonos', 'comsa-steel' ); ?>
+                                    <!-- li class="color-black">
+										<?php _e("Teléfonos", "comsa-steel"); ?>
                                     </li>
                                     <li>
                                         <a href="tel:+526141234567">
@@ -53,7 +62,7 @@
                                         <a href="tel:+526141234567">
                                             +52 (614) 123 4567
                                         </a>
-                                    </li>
+                                    </li -->
                                 </ul>
                             </nav>
                         </div>
@@ -63,8 +72,10 @@
                             <nav data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                                 <ul class="list-unstyled">
                                     <li class="mb-1 mb-lg-3">
-                                        <a href="<?php echo get_permalink( 3 ); ?>">
-											<?php _e( 'Política de Privacidad', 'comsa-steel' ); ?>
+                                        <a href="<?php echo get_permalink(
+                                            3
+                                        ); ?>">
+											<?php _e("Política de Privacidad", "comsa-steel"); ?>
                                         </a>
                                     </li>
                                 </ul>
@@ -73,12 +84,19 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer/thumb.webp" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                    <img src="<?php echo esc_url(
+                        get_template_directory_uri()
+                    ); ?>/assets/images/footer/thumb.webp" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="mb-0">&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. <?php _e( 'Todos los derechos reservados', 'comsa-steel' ); ?>.</p>
+                    <p class="mb-0">&copy; <?php echo date(
+                        "Y"
+                    ); ?> <?php bloginfo("name"); ?>. <?php _e(
+    "Todos los derechos reservados",
+    "comsa-steel"
+); ?>.</p>
                 </div>
                 <div class="col text-end">
                     <p class="mb-0">Made with <i class="fa-solid fa-heart" alt="love" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="love"></i> @ <a href="https://mixen.mx/" target="_blank">Mixen</a></p>
@@ -93,5 +111,7 @@
 
 	<?php wp_footer(); ?>
 
-<script defer src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/app.e0b0a05c67f8e491879a.bundle.js"></script></body>
+<script defer src="<?php echo esc_url(
+    get_template_directory_uri()
+); ?>/assets/js/app.e0b0a05c67f8e491879a.bundle.js"></script></body>
 </html>
