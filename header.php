@@ -57,7 +57,7 @@
                         </a>
                     </li>
                     <li>
-                        <a id="btn-nav-6" href="<?php echo get_permalink( 2 ); ?>">
+                        <a id="btn-nav-6" href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 43 ); ?><?php else: ?><?php echo get_permalink( 2 ); ?><?php endif; ?>">
                             <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                         </a>
                     </li>
@@ -143,7 +143,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="<?php echo get_permalink( 2 ); ?>">
+                                <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 43 ); ?><?php else: ?><?php echo get_permalink( 2 ); ?><?php endif; ?>">
                                     <?php _e( 'Cotiza tu proyecto', 'comsa-steel' ); ?>
                                 </a>
                             </li>
