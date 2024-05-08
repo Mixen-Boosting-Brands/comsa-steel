@@ -156,7 +156,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Fabricación', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -169,7 +169,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Ingeniería y Detallado', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -182,7 +182,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Preconstrucción', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -195,7 +195,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Joist and Deck Supplier', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -208,7 +208,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Project Management', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -221,7 +221,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Montaje', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -238,7 +238,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Fabricación', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -251,7 +251,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Ingeniería y Detallado', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -264,7 +264,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Preconstrucción', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -277,7 +277,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Joist and Deck Supplier', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -290,7 +290,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Project Management', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -303,7 +303,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Montaje', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -320,7 +320,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Fabricación', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -333,7 +333,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Ingeniería y Detallado', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -346,7 +346,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Preconstrucción', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -359,7 +359,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Joist and Deck Supplier', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -372,7 +372,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Project Management', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
@@ -385,7 +385,7 @@
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
-                                        <div>
+                                        <div class="nombre">
                                             <h1><?php _e( 'Montaje', 'comsa-steel' ); ?></h1>
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>">
                                                 <?php _e( 'Ver más', 'comsa-steel' ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
