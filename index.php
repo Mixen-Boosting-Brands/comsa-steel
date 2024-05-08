@@ -15,7 +15,7 @@
                             <div class="swiper-slide my-auto swiper-decor">
                                 <div class="row">
                                     <div class="col-xl-8 offset-xl-2 my-auto text-center overflow-hidden">
-                                        <div>
+                                        <div data-aos="fade-up" data-aos-duration="1000">
                                             <hr>
                                             <h1><?php _e( 'Desarrollemos', 'comsa-steel' ); ?> <span class="color-primary"><?php _e( 'proyectos', 'comsa-steel' ); ?></span> <?php _e( 'impactantes juntos', 'comsa-steel' ); ?></h1>
                                         </div>
@@ -42,10 +42,12 @@
                 <div class="col-lg-7 offset-lg-5 text-center text-lg-end">
                     <div class="row">
                         <div class="col-6 col-lg-8 my-auto">
-                            <h1 class="mb-0"><?php _e( 'Esto', 'comsa-steel' ); ?> <span class="color-primary"><?php _e( 'somos', 'comsa-steel' ); ?></span></h1>
+                            <h1 class="mb-0" data-aos="fade-up" data-aos-duration="1000">
+                                <?php _e( 'Esto', 'comsa-steel' ); ?> <span class="color-primary"><?php _e( 'somos', 'comsa-steel' ); ?></span>
+                            </h1>
                         </div>
                         <div class="col-6 col-lg-4 my-auto">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-vertical@2x.webp" alt="" class="img-fluid" loading="lazy">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-vertical@2x.webp" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         </div>
                     </div>
                 </div>
