@@ -17,7 +17,7 @@
                             <div class="swiper-slide my-auto">
                                 <div class="row">
                                     <div class="col-xl-8 offset-xl-2 my-auto text-center overflow-hidden">
-                                        <div>
+                                        <div data-aos="fade-up" data-aos-duration="1000">
                                             <hr>
                                             <h1 style="color: #ffffff;">
                                                 <?php _e( 'Cotiza', 'comsa-steel' ); ?> <span class="color-primary"><?php _e( 'tu proyecto', 'comsa-steel' ); ?></span>
@@ -28,7 +28,7 @@
                                         <!-- Aquí se inyecta feedback a usuario vía Ajax -->
                                         <div id="form-messages"></div>
                                         <!-- /Aquí se inyecta feedback a usuario vía Ajax -->
-                                        <form data-aos="fade-up" data-aos-duration="1000" action="<?php echo esc_url( get_template_directory_uri() ); ?>/mailer.php" method="POST" class="row g-3 needs-validation contact-form mb-4 mb-lg-0" id="ajax-contact" novalidate>
+                                        <form data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" action="<?php echo esc_url( get_template_directory_uri() ); ?>/mailer.php" method="POST" class="row g-3 needs-validation contact-form mb-4 mb-lg-0" id="ajax-contact" novalidate>
                                             <div class="col-md-12 form-floating">
                                                 <input type="text" class="form-control shadow-none" id="nombre" name="nombre" placeholder="<?php _e( 'Nombre completo*', 'comsa-steel' ); ?>"
                                                     pattern=".{5,50}" required>
