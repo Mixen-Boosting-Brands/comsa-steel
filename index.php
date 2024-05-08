@@ -234,7 +234,7 @@
                         <!-- div class="tab-pane fade" id="pills-fabricacion" role="tabpanel" aria-labelledby="pills-fabricacion-tab" tabindex="0">
                             <div class="row masonry-grid" data-masonry='{"percentPosition": true }'>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -247,7 +247,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -260,7 +260,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -273,7 +273,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -286,7 +286,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -299,7 +299,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -316,7 +316,7 @@
                         <!-- div class="tab-pane fade" id="pills-ingenieria" role="tabpanel" aria-labelledby="pills-ingenieria-tab" tabindex="0">
                             <div class="row masonry-grid" data-masonry='{"percentPosition": true }'>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 30 ); ?><?php else: ?><?php echo get_permalink( 11 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -329,7 +329,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 32 ); ?><?php else: ?><?php echo get_permalink( 13 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -342,7 +342,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-preconstruccion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 34 ); ?><?php else: ?><?php echo get_permalink( 15 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -355,7 +355,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-joist-and-deck-supplier.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 36 ); ?><?php else: ?><?php echo get_permalink( 17 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -368,7 +368,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-project-management.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 39 ); ?><?php else: ?><?php echo get_permalink( 19 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -381,7 +381,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;">
+                                    <div class="servicio servicio-1" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/servicios/bg-montaje.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
                                         <div class="overlay">
                                             <a href="<?php if ( $currentlang == "en-US" ): ?><?php echo get_permalink( 41 ); ?><?php else: ?><?php echo get_permalink( 21 ); ?><?php endif; ?>"></a>
                                         </div>
@@ -405,11 +405,13 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-8 offset-lg-2 text-center">
-                    <h1 class="mb-4"><?php _e( 'Ellos', 'comsa-steel' ); ?> <span><?php _e( 'confían', 'comsa-steel' ); ?></span> <?php _e( 'en nosotros', 'comsa-steel' ); ?></h1>
+                    <h1 class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                        <?php _e( 'Ellos', 'comsa-steel' ); ?> <span><?php _e( 'confían', 'comsa-steel' ); ?></span> <?php _e( 'en nosotros', 'comsa-steel' ); ?>
+                    </h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                     <!-- Slider main container -->
                     <div class="swiper swiper-clientes-2">
                         <div id="overlay"></div>
@@ -489,7 +491,7 @@
     <section id="noticias" class="common-dark py-60">
         <div class="container">
             <div class="row">
-                <div class="col-6 my-auto">
+                <div class="col-6 my-auto" data-aos="fade-up" data-aos-duration="1000">
                     <hr>
                     <h1>
                         <?php _e( 'Noticias', 'comsa-steel' ); ?>
@@ -498,17 +500,24 @@
                 <div class="col-6 my-3 my-lg-auto">
                     <div class="row">
                         <div class="col-12">
-                            <p class="text-small text-muted mb-0"><?php _e( 'Ordenar por:', 'comsa-steel' ); ?></p>
+                            <p class="text-small text-muted mb-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+                                <?php _e( 'Ordenar por:', 'comsa-steel' ); ?>
+                            </p>
                             <nav>
                                 <div class="navs d-flex flex-wrap justify-content-start" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true">Todas</button>
+                                    <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                        Todas
+                                    </button>
                                 <?php
                                     $tags = get_tags();
-
+                                    $i = 750;
                                     if ($tags): $counterTags = 2; foreach ($tags as $tag):
                                 ?>
-                                    <button class="nav-link" id="nav-cat-<?php echo $counterTags; ?>-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-<?php echo $counterTags; ?>" type="button" role="tab" aria-controls="nav-cat-<?php echo $counterTags; ?>" aria-selected="false"><?php echo esc_html($tag->name); ?></button>
-                                <?php 
+                                    <button class="nav-link" id="nav-cat-<?php echo $counterTags; ?>-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-<?php echo $counterTags; ?>" type="button" role="tab" aria-controls="nav-cat-<?php echo $counterTags; ?>" aria-selected="false" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="<?php echo $i; ?>">
+                                        <?php echo esc_html($tag->name); ?>
+                                    </button>
+                                <?php
+                                    $i + 250;
                                     $counterTags++; endforeach; endif;
                                 ?>
                                 </div>
