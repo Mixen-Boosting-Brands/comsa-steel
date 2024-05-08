@@ -111,7 +111,8 @@
 
 	<?php wp_footer(); ?>
 
-<script defer src="<?php echo esc_url(
-    get_template_directory_uri()
-); ?>/assets/js/app.e0b0a05c67f8e491879a.bundle.js"></script></body>
+	<script defer src="<?php echo esc_url(
+     get_template_directory_uri()
+ ); ?>/assets/js/app.e0b0a05c67f8e491879a.bundle.js"></script>
+</body>
 </html>
