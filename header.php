@@ -36,10 +36,6 @@
     <meta name="theme-color" content="#000000">
 
 	<?php wp_head(); ?>
-
-    <link rel="stylesheet" href="<?php echo esc_url(
-        get_template_directory_uri()
-    ); ?>/assets/css/styles.css">
 </head>
 <body <?php if (!is_home()): ?>class="is-single"<?php endif; ?>>
     <div id="backdrop"></div>
