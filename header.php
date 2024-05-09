@@ -247,7 +247,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-6 d-lg-none my-auto text-end">
+                <div class="col-6 d-xl-none my-auto text-end">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item d-inline-block d-lg-none">
                             <?php pll_the_languages(["dropdown" => 1]); ?>
