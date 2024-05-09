@@ -158,7 +158,7 @@
     <header id="navbar">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-lg-4 my-auto">
+                <div class="col-6 col-xl-4 my-auto">
                     <a href="<?php echo esc_url(home_url()); ?>">
                         <img src="<?php echo esc_url(
                             get_template_directory_uri()
