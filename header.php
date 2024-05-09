@@ -242,7 +242,10 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <?php pll_the_languages(["dropdown" => 1]); ?>
+                                <?php pll_the_languages([
+                                    "show_flags" => 1,
+                                    "show_names" => 0,
+                                ]); ?>
                             </li>
                         </ul>
                     </nav>
@@ -250,7 +253,10 @@
                 <div class="col-6 d-xl-none my-auto text-end">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item d-inline-block d-lg-none">
-                            <?php pll_the_languages(["dropdown" => 1]); ?>
+                            <?php pll_the_languages([
+                                "show_flags" => 1,
+                                "show_names" => 0,
+                            ]); ?>
                         </li>
                         <li class="list-inline-item">
                             <a id="mburger" href="javascript:void(0)">
