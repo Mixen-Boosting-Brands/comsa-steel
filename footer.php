@@ -113,6 +113,6 @@
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.e0b0a05c67f8e491879a.bundle.js"></script>
+ ); ?>/assets/js/app.d0226f756b3a60be4e1f.bundle.js"></script>
 </body>
 </html>
