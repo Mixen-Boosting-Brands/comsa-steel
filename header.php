@@ -162,7 +162,7 @@
     <header id="navbar">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-xl-4 my-auto">
+                <div class="col-6 col-xl-2 my-auto">
                     <a href="<?php echo esc_url(home_url()); ?>">
                         <img src="<?php echo esc_url(
                             get_template_directory_uri()
@@ -171,7 +171,7 @@
 ); ?>" class="logo img-fluid" id="logo-navbar" loading="lazy">
                     </a>
                 </div>
-                <div class="col-8 d-none d-xl-block my-auto text-end">
+                <div class="col-8 col-xl-10 d-none d-xl-block my-auto text-end">
                     <nav>
                         <ul class="list-inline">
                             <li class="list-inline-item">
