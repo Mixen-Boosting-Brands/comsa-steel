@@ -4,7 +4,7 @@
 
     <footer class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url(
         get_template_directory_uri()
-    ); ?>/assets/images/footer/footer.webp">
+    ); ?>/assets/images/footer/bg-footer.webp">
         <div class="container">
             <div class="row mb-1 mb-lg-3">
                 <div class="col-lg-6">
