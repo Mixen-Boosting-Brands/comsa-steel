@@ -166,7 +166,7 @@
                     <a href="<?php echo esc_url(home_url()); ?>">
                         <img src="<?php echo esc_url(
                             get_template_directory_uri()
-                        ); ?>/assets/images/logo@2x.webp" alt="<?php bloginfo(
+                        ); ?>/assets/images/logo-vertical@2x.webp" alt="<?php bloginfo(
     "name"
 ); ?>" class="logo img-fluid" id="logo-navbar" loading="lazy">
                     </a>
