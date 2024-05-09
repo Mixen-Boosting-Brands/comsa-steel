@@ -171,7 +171,7 @@
 ); ?>" class="logo img-fluid" id="logo-navbar" loading="lazy">
                     </a>
                 </div>
-                <div class="col-8 d-none d-lg-block my-auto text-end">
+                <div class="col-8 d-none d-xl-block my-auto text-end">
                     <nav>
                         <ul class="list-inline">
                             <li class="list-inline-item">
