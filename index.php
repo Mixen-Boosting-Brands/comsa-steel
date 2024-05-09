@@ -172,6 +172,10 @@ get_header();
         </div>
     </section>
 
+    <section id="video">
+        <iframe class="video" src="https://www.youtube.com/embed/2Ng9WnAvrR8?si=8BTfR_g24aqPtt5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
     <section id="servicios" class="py-60">
         <div class="container">
             <div class="row mb-4">
@@ -1249,10 +1253,6 @@ wp_reset_postdata();
                 </div>
             </div>
         </div>
-    </section>
-
-    <section id="video">
-        <iframe class="video" src="https://www.youtube.com/embed/2Ng9WnAvrR8?si=8BTfR_g24aqPtt5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 
 <?php get_footer(); ?>
