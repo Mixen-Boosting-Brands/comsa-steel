@@ -42,7 +42,9 @@ get_header();
         </div>
     </section>
 
-    <section id="descanso">
+    <section id="descanso" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url(
+        get_template_directory_uri()
+    ); ?>/assets/images/bg-descanso.webp">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 offset-lg-5 text-center text-lg-end">
