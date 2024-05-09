@@ -98,72 +98,72 @@ get_header();
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-1.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-1.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-2.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-2.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-3.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-3.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-4.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-4.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-5.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-5.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-6.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-6.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-7.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-7.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-1.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-1.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-2.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-2.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-3.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-3.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-4.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-4.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-5.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-5.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-6.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-6.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                ); ?>/assets/images/clientes/logo-7.png" alt="" class="img-fluid" loading="lazy">
+                                ); ?>/assets/images/clientes/logo-7.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                         </div>
                     </div>
