@@ -214,7 +214,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(30);
+                                                echo get_permalink(129);
                                             else:
                                                 echo get_permalink(11);
                                             endif; ?>"></a>
@@ -227,7 +227,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(30);
+                                                echo get_permalink(129);
                                             else:
                                                 echo get_permalink(11);
                                             endif; ?>">
@@ -247,7 +247,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(32);
+                                                echo get_permalink(131);
                                             else:
                                                 echo get_permalink(13);
                                             endif; ?>"></a>
@@ -260,7 +260,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(32);
+                                                echo get_permalink(131);
                                             else:
                                                 echo get_permalink(13);
                                             endif; ?>">
@@ -280,7 +280,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(34);
+                                                echo get_permalink(133);
                                             else:
                                                 echo get_permalink(15);
                                             endif; ?>"></a>
@@ -293,7 +293,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(34);
+                                                echo get_permalink(133);
                                             else:
                                                 echo get_permalink(15);
                                             endif; ?>">
@@ -313,7 +313,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(36);
+                                                echo get_permalink(136);
                                             else:
                                                 echo get_permalink(17);
                                             endif; ?>"></a>
@@ -326,7 +326,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(36);
+                                                echo get_permalink(136);
                                             else:
                                                 echo get_permalink(17);
                                             endif; ?>">
@@ -346,7 +346,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(39);
+                                                echo get_permalink(138);
                                             else:
                                                 echo get_permalink(19);
                                             endif; ?>"></a>
@@ -359,7 +359,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(39);
+                                                echo get_permalink(138);
                                             else:
                                                 echo get_permalink(19);
                                             endif; ?>">
@@ -379,7 +379,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(41);
+                                                echo get_permalink(140);
                                             else:
                                                 echo get_permalink(21);
                                             endif; ?>"></a>
@@ -392,7 +392,7 @@ get_header();
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
                                             ):
-                                                echo get_permalink(41);
+                                                echo get_permalink(140);
                                             else:
                                                 echo get_permalink(21);
                                             endif; ?>">
