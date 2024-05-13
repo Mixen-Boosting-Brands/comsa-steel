@@ -116,5 +116,15 @@
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
  ); ?>/assets/js/app.ae9032ef03f4af88a976.bundle.js"></script>
+
+	<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H25C4HNG5N');
+    </script>
 </body>
 </html>
