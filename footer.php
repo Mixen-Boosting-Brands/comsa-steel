@@ -115,7 +115,7 @@
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.08fe695959d96d284ca4.bundle.js"></script>
+ ); ?>/assets/js/app.f66322ad20714d0ec9ce.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>
