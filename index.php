@@ -137,32 +137,32 @@ get_header();
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes/logo-1.webp" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">
                             <img class="logo-cliente" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes/logo-2.webp" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1350">
                             <img class="logo-cliente" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes/logo-3.webp" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
                             <img class="logo-cliente" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes/logo-4.webp" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1450">
                             <img class="logo-cliente" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes/logo-5.webp" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
                             <img class="logo-cliente" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes/logo-6.webp" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1550">
                             <img class="logo-cliente" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes/logo-7.webp" alt="" class="img-fluid" loading="lazy">
