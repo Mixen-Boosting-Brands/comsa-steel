@@ -202,40 +202,7 @@ get_header();
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url(
                                         get_template_directory_uri()
-                                    ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
-                                        <div class="overlay">
-                                            <a href="<?php if (
-                                                $currentlang == "en-US"
-                                            ):
-                                                echo get_permalink(129);
-                                            else:
-                                                echo get_permalink(11);
-                                            endif; ?>"></a>
-                                        </div>
-                                        <div class="nombre">
-                                            <h1><?php _e(
-                                                "Fabricación",
-                                                "comsa-steel"
-                                            ); ?></h1>
-                                            <a href="<?php if (
-                                                $currentlang == "en-US"
-                                            ):
-                                                echo get_permalink(129);
-                                            else:
-                                                echo get_permalink(11);
-                                            endif; ?>">
-                                                <?php _e(
-                                                    "Ver más",
-                                                    "comsa-steel"
-                                                ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url(
-                                        get_template_directory_uri()
-                                    ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                    ); ?>/assets/images/servicios/ingenieria-y-detallado.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                                         <div class="overlay">
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
@@ -256,6 +223,39 @@ get_header();
                                                 echo get_permalink(131);
                                             else:
                                                 echo get_permalink(13);
+                                            endif; ?>">
+                                                <?php _e(
+                                                    "Ver más",
+                                                    "comsa-steel"
+                                                ); ?> <i class="fa-solid fa-circle-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 masonry-item">
+                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url(
+                                        get_template_directory_uri()
+                                    ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                        <div class="overlay">
+                                            <a href="<?php if (
+                                                $currentlang == "en-US"
+                                            ):
+                                                echo get_permalink(129);
+                                            else:
+                                                echo get_permalink(11);
+                                            endif; ?>"></a>
+                                        </div>
+                                        <div class="nombre">
+                                            <h1><?php _e(
+                                                "Fabricación",
+                                                "comsa-steel"
+                                            ); ?></h1>
+                                            <a href="<?php if (
+                                                $currentlang == "en-US"
+                                            ):
+                                                echo get_permalink(129);
+                                            else:
+                                                echo get_permalink(11);
                                             endif; ?>">
                                                 <?php _e(
                                                     "Ver más",
