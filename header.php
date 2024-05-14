@@ -194,7 +194,10 @@
                                         else:
                                             echo get_permalink(13);
                                         endif; ?>">
-                                            Ingeniería y Detallado
+                                            <?php _e(
+                                                "Ingeniería y Detallado",
+                                                "comsa-steel"
+                                            ); ?>
                                         </a>
                                     </li>
                                     <li>
@@ -205,7 +208,10 @@
                                         else:
                                             echo get_permalink(11);
                                         endif; ?>">
-                                            Fabricación
+                                            <?php _e(
+                                                "Fabricación",
+                                                "comsa-steel"
+                                            ); ?>
                                         </a>
                                     </li>
                                     <li>
@@ -216,7 +222,10 @@
                                         else:
                                             echo get_permalink(15);
                                         endif; ?>">
-                                            Preconstrucción
+                                            <?php _e(
+                                                "Preconstrucción",
+                                                "comsa-steel"
+                                            ); ?>
                                         </a>
                                     </li>
                                     <li>
@@ -227,7 +236,10 @@
                                         else:
                                             echo get_permalink(17);
                                         endif; ?>">
-                                            Joist and Deck Supplier
+                                            <?php _e(
+                                                "Joist and Deck Supplier",
+                                                "comsa-steel"
+                                            ); ?>
                                         </a>
                                     </li>
                                     <li>
@@ -238,7 +250,10 @@
                                         else:
                                             echo get_permalink(19);
                                         endif; ?>">
-                                            Project Management
+                                            <?php _e(
+                                                "Project Management",
+                                                "comsa-steel"
+                                            ); ?>
                                         </a>
                                     </li>
                                     <?php if (!($currentlang == "en-US")): ?>
@@ -250,7 +265,10 @@
                                         else:
                                             echo get_permalink(21);
                                         endif; ?>">
-                                            Montaje
+                                            <?php _e(
+                                                "Montaje",
+                                                "comsa-steel"
+                                            ); ?>
                                         </a>
                                     </li>
                                     <?php endif; ?>
