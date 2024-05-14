@@ -49,7 +49,7 @@ get_header();
     ); ?>/assets/images/bg-descanso.webp">
         <div class="container">
             <div class="row pb-30">
-                <div class="col-lg-7 offset-lg-5 text-center">
+                <div class="col-lg-7 offset-lg-2 text-center">
                     <div class="row">
                         <div class="col-6 col-lg-8 my-auto">
                             <h1 class="mb-0" data-aos="fade-up" data-aos-duration="1000">
