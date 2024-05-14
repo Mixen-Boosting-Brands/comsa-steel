@@ -74,13 +74,25 @@ get_header();
                 <div class="col-12 text-center">
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <div class="counter" data-target="100">0</div>
+                            <div class="counter" data-target="50">0</div> <?php _e(
+                                "mil toneladas fabricadas",
+                                "comsa-steel"
+                            ); ?>
                         </li>
                         <li class="list-inline-item">
-                            <div class="counter" data-target="200">0</div>
+                            <div class="counter" data-target="400">0</div> <?php _e(
+                                "proyectos concluidos",
+                                "comsa-steel"
+                            ); ?>
                         </li>
                         <li class="list-inline-item">
-                            <div class="counter" data-target="300">0</div>
+                            <?php _e(
+                                "Más de ",
+                                "comsa-steel"
+                            ); ?> <div class="counter" data-target="1500000">0</div> <?php _e(
+     "de metros cuadrados instalados",
+     "comsa-steel"
+ ); ?>
                         </li>
                     </ul>
                 </div>
