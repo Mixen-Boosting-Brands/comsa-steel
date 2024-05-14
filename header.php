@@ -182,13 +182,78 @@
                                 </a>
                             </li>
                             <li class="list-inline-item dropdown">
-                                <a href="javascript:void(0)" class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a href="javascript:void(0)" class="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <?php _e("Servicios", "comsa-steel"); ?>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="<?php if (
+                                            $currentlang == "en-US"
+                                        ):
+                                            echo get_permalink(131);
+                                        else:
+                                            echo get_permalink(13);
+                                        endif; ?>">
+                                            Ingeniería y Detallado
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="<?php if (
+                                            $currentlang == "en-US"
+                                        ):
+                                            echo get_permalink(129);
+                                        else:
+                                            echo get_permalink(11);
+                                        endif; ?>">
+                                            Fabricación
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="<?php if (
+                                            $currentlang == "en-US"
+                                        ):
+                                            echo get_permalink(133);
+                                        else:
+                                            echo get_permalink(15);
+                                        endif; ?>">
+                                            Preconstrucción
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="<?php if (
+                                            $currentlang == "en-US"
+                                        ):
+                                            echo get_permalink(136);
+                                        else:
+                                            echo get_permalink(17);
+                                        endif; ?>">
+                                            Joist and Deck Supplier
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="<?php if (
+                                            $currentlang == "en-US"
+                                        ):
+                                            echo get_permalink(138);
+                                        else:
+                                            echo get_permalink(19);
+                                        endif; ?>">
+                                            Project Management
+                                        </a>
+                                    </li>
+                                    <?php if (!($currentlang == "en-US")): ?>
+                                    <li>
+                                        <a class="dropdown-item" href="<?php if (
+                                            $currentlang == "en-US"
+                                        ):
+                                            echo get_permalink(140);
+                                        else:
+                                            echo get_permalink(21);
+                                        endif; ?>">
+                                            Montaje
+                                        </a>
+                                    </li>
+                                    <?php endif; ?>
                                   </ul>
                             </li>
                             <li class="list-inline-item">
