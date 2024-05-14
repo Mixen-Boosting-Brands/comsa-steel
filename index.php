@@ -71,30 +71,32 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 text-center">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <div class="counter" data-target="50">0</div> <?php _e(
-                                "mil toneladas fabricadas",
-                                "comsa-steel"
-                            ); ?>
-                        </li>
-                        <li class="list-inline-item">
-                            <div class="counter" data-target="400">0</div> <?php _e(
-                                "proyectos concluidos",
-                                "comsa-steel"
-                            ); ?>
-                        </li>
-                        <li class="list-inline-item">
-                            <?php _e(
-                                "Más de ",
-                                "comsa-steel"
-                            ); ?> <div class="counter" data-target="1500000">0</div> <?php _e(
+                <div class="col text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut magnam perferendis mollitia dolores odit distinctio ea a corporis? Fuga accusantium eius ad? Ipsa non doloremque quas provident, eum error!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <div class="counter" data-target="50">0</div> <?php _e(
+                        "mil toneladas fabricadas",
+                        "comsa-steel"
+                    ); ?>
+
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="counter" data-target="400">0</div> <?php _e(
+                        "proyectos concluidos",
+                        "comsa-steel"
+                    ); ?>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <?php _e(
+                        "Más de ",
+                        "comsa-steel"
+                    ); ?> <div class="counter" data-target="1500000">0</div> <?php _e(
      "de metros cuadrados instalados",
      "comsa-steel"
  ); ?>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
