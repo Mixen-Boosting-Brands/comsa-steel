@@ -77,26 +77,31 @@ get_header();
             </div>
             <div class="row">
                 <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                    <div class="counter" data-target="50">0</div> <?php _e(
-                        "mil toneladas fabricadas",
-                        "comsa-steel"
-                    ); ?>
-
+                    <h3>
+                        <div class="counter" data-target="50">0</div> <?php _e(
+                            "mil toneladas fabricadas",
+                            "comsa-steel"
+                        ); ?>
+                    </h3>
                 </div>
                 <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
-                    <div class="counter" data-target="400">0</div> <?php _e(
-                        "proyectos concluidos",
-                        "comsa-steel"
-                    ); ?>
+                    <h3>
+                        <div class="counter" data-target="400">0</div> <?php _e(
+                            "proyectos concluidos",
+                            "comsa-steel"
+                        ); ?>
+                    </h3>
                 </div>
                 <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-                    <?php _e(
-                        "Más de ",
-                        "comsa-steel"
-                    ); ?> <div class="counter" data-target="1500000">0</div> <?php _e(
+                    <h3>
+                        <?php _e(
+                            "Más de ",
+                            "comsa-steel"
+                        ); ?> <div class="counter" data-target="1500000">0</div> <?php _e(
      "de metros cuadrados instalados",
      "comsa-steel"
  ); ?>
+                    </h3>
                 </div>
             </div>
         </div>
