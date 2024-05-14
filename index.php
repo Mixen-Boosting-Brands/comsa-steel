@@ -70,6 +70,21 @@ get_header();
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <div class="counter" data-target="100">0</div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="counter" data-target="200">0</div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="counter" data-target="300">0</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
