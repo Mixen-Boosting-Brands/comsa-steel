@@ -233,9 +233,11 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="col-lg-4 masonry-item">
-                                    <div class="servicio servicio-2" style="background: url('<?php echo esc_url(
-                                        get_template_directory_uri()
-                                    ); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                    <div class="servicio <?php if (
+                                        !($currentlang == "en-US")
+                                    ): ?>servicio-2<?php else: ?>servicio-3<?php endif; ?>" style="background: url('<?php echo esc_url(
+    get_template_directory_uri()
+); ?>/assets/images/servicios/bg-fabricacion.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                                         <div class="overlay">
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
