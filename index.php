@@ -130,7 +130,7 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <ul class="list-inline">
                         <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
                             <img class="logo-cliente" src="<?php echo esc_url(
