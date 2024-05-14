@@ -49,7 +49,7 @@ get_header();
     ); ?>/assets/images/bg-descanso.webp">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 offset-lg-5 text-center text-lg-end">
+                <div class="col-lg-7 offset-lg-5 text-center">
                     <div class="row">
                         <div class="col-6 col-lg-8 my-auto">
                             <h1 class="mb-0" data-aos="fade-up" data-aos-duration="1000">
@@ -72,24 +72,24 @@ get_header();
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut magnam perferendis mollitia dolores odit distinctio ea a corporis? Fuga accusantium eius ad? Ipsa non doloremque quas provident, eum error!</p>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut magnam perferendis mollitia dolores odit distinctio ea a corporis? Fuga accusantium eius ad? Ipsa non doloremque quas provident, eum error!</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <div class="counter" data-target="50">0</div> <?php _e(
                         "mil toneladas fabricadas",
                         "comsa-steel"
                     ); ?>
 
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                     <div class="counter" data-target="400">0</div> <?php _e(
                         "proyectos concluidos",
                         "comsa-steel"
                     ); ?>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                     <?php _e(
                         "Más de ",
                         "comsa-steel"
