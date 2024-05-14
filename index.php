@@ -48,7 +48,7 @@ get_header();
         get_template_directory_uri()
     ); ?>/assets/images/bg-descanso.webp">
         <div class="container">
-            <div class="row">
+            <div class="row pb-30">
                 <div class="col-lg-7 offset-lg-5 text-center">
                     <div class="row">
                         <div class="col-6 col-lg-8 my-auto">
@@ -70,7 +70,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pb-30">
                 <div class="col text-center">
                     <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut magnam perferendis mollitia dolores odit distinctio ea a corporis? Fuga accusantium eius ad? Ipsa non doloremque quas provident, eum error!</p>
                 </div>
