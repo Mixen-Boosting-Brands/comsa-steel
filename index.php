@@ -78,8 +78,8 @@ get_header();
             <div class="row">
                 <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <h3>
-                        <div class="counter" data-target="50">0</div> <?php _e(
-                            "mil toneladas fabricadas",
+                        <div class="counter" data-target="50000">0</div> <?php _e(
+                            "toneladas fabricadas",
                             "comsa-steel"
                         ); ?>
                     </h3>
