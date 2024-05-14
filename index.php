@@ -202,7 +202,7 @@ get_header();
                                 <div class="col-lg-4 masonry-item">
                                     <div class="servicio servicio-1" style="background: url('<?php echo esc_url(
                                         get_template_directory_uri()
-                                    ); ?>/assets/images/servicios/ingenieria-y-detallado.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+                                    ); ?>/assets/images/servicios/bg-ingenieria-y-detallado.webp') no-repeat;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                                         <div class="overlay">
                                             <a href="<?php if (
                                                 $currentlang == "en-US"
