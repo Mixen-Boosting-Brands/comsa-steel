@@ -61,7 +61,7 @@ get_header();
             <div class="row pb-30">
                 <div class="col-lg-7 offset-lg-2 text-center">
                     <div class="row">
-                        <div class="col-6 col-lg-8 my-auto">
+                        <div class="col-6 col-lg-9 my-auto">
                             <h1 class="mb-0" data-aos="fade-up" data-aos-duration="1000">
                                 <?php _e(
                                     "Esto",
@@ -72,7 +72,7 @@ get_header();
  ); ?></span>
                             </h1>
                         </div>
-                        <div class="col-6 col-lg-4 my-auto">
+                        <div class="col-6 col-lg-3 my-auto">
                             <img src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/logo-vertical@2x.webp" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
