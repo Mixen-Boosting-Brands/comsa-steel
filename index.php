@@ -3,9 +3,13 @@ $currentlang = get_bloginfo("language");
 get_header();
 ?>
 
-	<section id="banner" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url(
-     get_template_directory_uri()
- ); ?>/assets/images/bg-banner.webp">
+	<section id="banner">
+        <video autoplay muted loop id="background-video">
+            <source src="<?php echo esc_url(
+                get_template_directory_uri()
+            ); ?>/assets/videos/bg-video.mov" type="video/quicktime">
+            Your browser does not support the video tag.
+        </video>
         <div class="container">
             <div class="row">
                 <div class="col">
