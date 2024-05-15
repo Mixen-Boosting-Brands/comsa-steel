@@ -855,9 +855,41 @@ wp_reset_postdata();
                     </form>
                 </div>
                 <div class="col-lg-5 offset-lg-2 my-auto">
-                    <img src="<?php echo esc_url(
-                        get_template_directory_uri()
-                    ); ?>/assets/images/thumb-contacto.webp" alt="Contáctanos" id="thumb-contacto" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <nav data-aos="fade-up" data-aos-duration="1000">
+                        <ul class="list-unstyled">
+                            <li class="color-black">
+										<?php _e("Encuéntranos", "comsa-steel"); ?>
+                            </li>
+                            <li>
+                                <address>
+                                    Vía Lombardía 5705 Int. 305<br>
+                                    Col. Saucito<br>
+                                    Chihuahua, Chih. México
+                                </address>
+                            </li>
+                            <li class="mb-5">
+                                <address class="mb-0">
+                                    Av. Piña 3302<br>
+                                    Col. Ampliación Crucero<br>
+                                    Chihuahua, Chih. México
+                                </address>
+                            </li>
+                            <li class="color-black">
+										<?php _e("Lo más reciente", "comsa-steel"); ?>
+                            </li>
+                            <li>
+                                <a <?php if (
+                                    is_home()
+                                ): ?>class="anchor"<?php endif; ?> href="<?php if (
+     !is_home()
+ ):
+     echo esc_url(home_url());
+ endif; ?>#noticias">
+                                    <?php _e("Noticias", "comsa-steel"); ?>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
