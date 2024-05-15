@@ -420,7 +420,7 @@ get_header();
         </div>
     </section>
 
-    <section id="confian" class="py-60">
+    <section id="confian" class="common-light py-60">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-8 offset-lg-2 text-center">
