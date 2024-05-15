@@ -724,16 +724,21 @@ wp_reset_postdata();
 
     <section id="contacto" class="common-light py-60">
         <div class="container">
+            <div class="row mb-4">
+                <div class="col">
+                    <h1><?php _e("Encuéntranos", "comsa-steel"); ?></h1>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-5 my-auto">
                     <hr data-aos="fade-up" data-aos-duration="1000">
-                    <h1 data-aos="fade-up" data-aos-duration="1000">
+                    <h3 data-aos="fade-up" data-aos-duration="1000">
                         <?php _e("Escríbenos un", "comsa-steel"); ?><br>
                         <span class="color-primary"><?php _e(
                             "mensaje",
                             "comsa-steel"
                         ); ?></span>
-                    </h1>
+                    </h3>
                     <!-- Aquí se inyecta feedback a usuario vía Ajax -->
                     <div id="form-messages"></div>
                     <!-- /Aquí se inyecta feedback a usuario vía Ajax -->
@@ -861,7 +866,12 @@ wp_reset_postdata();
                             <nav data-aos="fade-up" data-aos-duration="1000">
                                 <ul class="list-unstyled">
                                     <li class="color-black">
-										<?php _e("Encuéntranos", "comsa-steel"); ?>
+                                        <h3>
+                                            <?php _e(
+                                                "Chihuahua",
+                                                "comsa-steel"
+                                            ); ?>
+                                        </h3>
                                     </li>
                                     <li>
                                         <address>
@@ -875,6 +885,21 @@ wp_reset_postdata();
                                             Av. Piña 3302<br>
                                             Col. Ampliación Crucero<br>
                                             Chihuahua, Chih. México
+                                        </address>
+                                    </li>
+                                    <li class="color-black">
+                                        <h3>
+                                            <?php _e(
+                                                "El Paso",
+                                                "comsa-steel"
+                                            ); ?>
+                                        </h3>
+                                    </li>
+                                    <li>
+                                        <address>
+                                            Lorem<br>
+                                            Lorem ipsum<br>
+                                            El Paso, TX USA
                                         </address>
                                     </li>
                                 </ul>
