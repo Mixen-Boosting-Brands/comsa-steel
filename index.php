@@ -7,7 +7,7 @@ get_header();
         <video autoplay muted loop playsinline id="background-video">
             <source src="<?php echo esc_url(
                 get_template_directory_uri()
-            ); ?>/assets/videos/bg-video.mov" type="video/quicktime">
+            ); ?>/assets/videos/bg-video.mp4" type="video/mp4"">
             Your browser does not support the video tag.
         </video>
         <div class="container">
