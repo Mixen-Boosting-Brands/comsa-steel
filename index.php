@@ -20,12 +20,18 @@ get_header();
                                         <div data-aos="fade-up" data-aos-duration="1000">
                                             <hr>
                                             <h1><?php _e(
-                                                "Desarrollemos",
+                                                "Estructuras de acero de",
                                                 "comsa-steel"
                                             ); ?> <span class="color-primary"><?php _e(
-     "proyectos",
+     "calidad",
      "comsa-steel"
- ); ?></span> <?php _e("impactantes juntos", "comsa-steel"); ?></h1>
+ ); ?></span> <?php _e("superior", "comsa-steel"); ?></h1>
+                                            <p>
+                                                <?php _e(
+                                                    "Experiencia comprobada que garantizan un rendimiento confiable al mejor precio.",
+                                                    "comsa-steel"
+                                                ); ?>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +78,12 @@ get_header();
             </div>
             <div class="row pb-30">
                 <div class="col text-center">
-                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut magnam perferendis mollitia dolores odit distinctio ea a corporis? Fuga accusantium eius ad? Ipsa non doloremque quas provident, eum error!</p>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <?php _e(
+                            "COMSA Steel es su socio confiable para el crecimiento. Contamos con experiencia en el diseño, fabricación y montaje de estructuras metálicas para naves industriales y grandes proyectos de infraestructura; la calidad, flexibilidad y eficiencia nos impulsan a brindar un servicio de clase mundial todos los días.",
+                            "comsa-steel"
+                        ); ?>
+                    </p>
                 </div>
             </div>
             <div class="row">
