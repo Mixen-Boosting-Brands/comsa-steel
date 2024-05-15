@@ -14,23 +14,6 @@
                             <nav data-aos="fade-up" data-aos-duration="1000">
                                 <ul class="list-unstyled">
                                     <li class="color-black">
-										<?php _e("Encuéntranos", "comsa-steel"); ?>
-                                    </li>
-                                    <li>
-                                        <address>
-                                            Vía Lombardía 5705 Int. 305<br>
-                                            Col. Saucito<br>
-                                            Chihuahua, Chih. México
-                                        </address>
-                                    </li>
-                                    <li class="mb-5">
-                                        <address class="mb-0">
-                                            Av. Piña 3302<br>
-                                            Col. Ampliación Crucero<br>
-                                            Chihuahua, Chih. México
-                                        </address>
-                                    </li>
-                                    <li class="color-black">
 										<?php _e("Lo más reciente", "comsa-steel"); ?>
                                     </li>
                                     <li>

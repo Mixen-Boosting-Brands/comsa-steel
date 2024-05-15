@@ -855,41 +855,50 @@ wp_reset_postdata();
                     </form>
                 </div>
                 <div class="col-lg-5 offset-lg-2 my-auto">
-                    <nav data-aos="fade-up" data-aos-duration="1000">
-                        <ul class="list-unstyled">
-                            <li class="color-black">
+                    <div class="row">
+                        <div class="col-6">
+                            <nav data-aos="fade-up" data-aos-duration="1000">
+                                <ul class="list-unstyled">
+                                    <li class="color-black">
 										<?php _e("Encuéntranos", "comsa-steel"); ?>
-                            </li>
-                            <li>
-                                <address>
-                                    Vía Lombardía 5705 Int. 305<br>
-                                    Col. Saucito<br>
-                                    Chihuahua, Chih. México
-                                </address>
-                            </li>
-                            <li class="mb-5">
-                                <address class="mb-0">
-                                    Av. Piña 3302<br>
-                                    Col. Ampliación Crucero<br>
-                                    Chihuahua, Chih. México
-                                </address>
-                            </li>
-                            <li class="color-black">
-										<?php _e("Lo más reciente", "comsa-steel"); ?>
-                            </li>
-                            <li>
-                                <a <?php if (
-                                    is_home()
-                                ): ?>class="anchor"<?php endif; ?> href="<?php if (
-     !is_home()
- ):
-     echo esc_url(home_url());
- endif; ?>#noticias">
-                                    <?php _e("Noticias", "comsa-steel"); ?>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                                    </li>
+                                    <li>
+                                        <address>
+                                            Vía Lombardía 5705 Int. 305<br>
+                                            Col. Saucito<br>
+                                            Chihuahua, Chih. México
+                                        </address>
+                                    </li>
+                                    <li class="mb-5">
+                                        <address class="mb-0">
+                                            Av. Piña 3302<br>
+                                            Col. Ampliación Crucero<br>
+                                            Chihuahua, Chih. México
+                                        </address>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-6">
+                            <nav data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+                                <ul class="list-unstyled">
+                                    <!-- li class="color-black">
+										<?php _e("Teléfonos", "comsa-steel"); ?>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+526141234567">
+                                            +52 (614) 123 4567
+                                        </a>
+                                    </li>
+                                    <li class="mb-5">
+                                        <a href="tel:+526141234567">
+                                            +52 (614) 123 4567
+                                        </a>
+                                    </li -->
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
