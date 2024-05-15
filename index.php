@@ -4,7 +4,7 @@ get_header();
 ?>
 
 	<section id="banner">
-        <video autoplay muted loop id="background-video">
+        <video autoplay muted loop playsinline id="background-video">
             <source src="<?php echo esc_url(
                 get_template_directory_uri()
             ); ?>/assets/videos/bg-video.mov" type="video/quicktime">
