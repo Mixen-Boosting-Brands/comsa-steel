@@ -249,7 +249,7 @@
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.4f4fc4a5d9005dff7d55.bundle.js"></script>
+ ); ?>/assets/js/app.ae130775c2225b35e20e.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>
