@@ -91,7 +91,7 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-10 offset-lg-1">
+                <div class="col-lg-10 offset-lg-2">
                     <div class="row">
                         <div class="col-lg-3 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                             <h3>
