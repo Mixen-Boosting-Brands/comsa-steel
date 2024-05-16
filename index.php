@@ -81,7 +81,7 @@ get_header();
                 </div>
             </div>
             <div class="row pb-30">
-                <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="col-lg-6 offset-lg-3 text-center">
                     <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         <?php _e(
                             "COMSA Steel es su socio confiable para el crecimiento. Contamos con experiencia en el diseño, fabricación y montaje de estructuras metálicas para naves industriales y grandes proyectos de infraestructura; la calidad, flexibilidad y eficiencia nos impulsan a brindar un servicio de clase mundial todos los días.",

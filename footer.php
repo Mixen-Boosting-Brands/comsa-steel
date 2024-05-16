@@ -215,7 +215,7 @@
                     <a href="<?php echo esc_url(home_url()); ?>">
                         <img src="<?php echo esc_url(
                             get_template_directory_uri()
-                        ); ?>/assets/images/logo@2x.webp" alt="" class="fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                        ); ?>/assets/images/logo-footer.svg" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                     </a>
                 </div>
             </div>
