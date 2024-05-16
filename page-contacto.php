@@ -5,6 +5,7 @@
 get_header(); ?>
 
     <section id="banner">
+        <div id="overlay"></div>
         <video autoplay muted loop playsinline id="background-video">
             <source src="<?php echo esc_url(
                 get_template_directory_uri()
