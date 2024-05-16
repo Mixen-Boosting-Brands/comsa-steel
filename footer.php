@@ -208,7 +208,7 @@
 
     <footer class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url(
         get_template_directory_uri()
-    ); ?>/assets/images/footer/bg-footer.webp">
+    ); ?>/assets/images/footer/bg-banner.webp">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-center">
@@ -249,7 +249,7 @@
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.ae130775c2225b35e20e.bundle.js"></script>
+ ); ?>/assets/js/app.6b980e27a094fe504caf.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>
