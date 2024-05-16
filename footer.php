@@ -210,7 +210,7 @@
         get_template_directory_uri()
     ); ?>/assets/images/footer/bg-footer.webp">
         <div class="container">
-            <div class="row mb-1 mb-lg-3">
+            <div class="row mb-5">
                 <div class="col-12 text-center">
                     <a href="<?php echo esc_url(home_url()); ?>">
                         <img src="<?php echo esc_url(
