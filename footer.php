@@ -206,16 +206,14 @@
         </div>
     </section>
 
-    <footer class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url(
-        get_template_directory_uri()
-    ); ?>/assets/images/bg-banner.webp">
+    <footer>
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-center">
                     <a href="<?php echo esc_url(home_url()); ?>">
                         <img src="<?php echo esc_url(
                             get_template_directory_uri()
-                        ); ?>/assets/images/logo-footer.svg" alt="" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                        ); ?>/assets/images/logo-footer.svg" alt="" id="logo-footer" class="img-fluid" loading="lazy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                     </a>
                 </div>
             </div>
@@ -249,7 +247,7 @@
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.6b980e27a094fe504caf.bundle.js"></script>
+ ); ?>/assets/js/app.c86527cffac544922996.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>
