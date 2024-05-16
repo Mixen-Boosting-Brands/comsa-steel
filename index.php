@@ -91,29 +91,33 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 offset-lg-1 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                    <h3>
-                        <div id="counter-1" class="counter" data-target="50000">0</div> <?php _e(
-                            "toneladas fabricadas",
-                            "comsa-steel"
-                        ); ?>
-                    </h3>
-                </div>
-                <div class="col-lg-3 offset-lg-1 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
-                    <h3>
-                        <div id="counter-2" class="counter" data-target="400">0</div> <?php _e(
-                            "proyectos concluidos",
-                            "comsa-steel"
-                        ); ?>
-                    </h3>
-                </div>
-                <div class="col-lg-3 offset-lg-1 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-                    <h3>
-                        <div id="counter-3" class="counter" data-target="1500000">0</div> <?php _e(
-                            "de metros cuadrados instalados",
-                            "comsa-steel"
-                        ); ?>
-                    </h3>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="row">
+                        <div class="col-lg-3 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                            <h3>
+                                <div id="counter-1" class="counter" data-target="50000">0</div> <?php _e(
+                                    "toneladas fabricadas",
+                                    "comsa-steel"
+                                ); ?>
+                            </h3>
+                        </div>
+                        <div class="col-lg-3 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                            <h3>
+                                <div id="counter-2" class="counter" data-target="400">0</div> <?php _e(
+                                    "proyectos concluidos",
+                                    "comsa-steel"
+                                ); ?>
+                            </h3>
+                        </div>
+                        <div class="col-lg-3 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                            <h3>
+                                <div id="counter-3" class="counter" data-target="1500000">0</div> <?php _e(
+                                    "de metros cuadrados instalados",
+                                    "comsa-steel"
+                                ); ?>
+                            </h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
