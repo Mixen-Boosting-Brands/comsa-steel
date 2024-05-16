@@ -173,9 +173,8 @@
                                     </li>
                                     <li>
                                         <address>
-                                            Lorem<br>
-                                            Lorem ipsum<br>
-                                            El Paso, TX USA
+                                            201 E. Main Suite 1615<br>
+                                            79901 El Paso, TX USA<br>
                                         </address>
                                     </li>
                                 </ul>
