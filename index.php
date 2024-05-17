@@ -96,7 +96,10 @@ get_header();
                     <div class="row">
                         <div class="col-lg-4 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                             <h3>
-                                <span class="plus-sign">+</span> <div id="counter-1" class="counter" data-target="50000">0</div> <?php _e(
+                                <div class="d-block">
+                                    <span class="plus-sign">+</span> <div id="counter-1" class="counter" data-target="50000">0</div>
+                                </div>
+                                <?php _e(
                                     "toneladas fabricadas",
                                     "comsa-steel"
                                 ); ?>
