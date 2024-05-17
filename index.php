@@ -94,7 +94,7 @@ get_header();
             <div class="row">
                 <div class="col-lg-10 offset-lg-2">
                     <div class="row">
-                        <div class="col-lg-4 col-xl-3 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <div class="col-lg-3 col-xl-4 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                             <h3>
                                 + <div id="counter-1" class="counter" data-target="50000">0</div> <?php _e(
                                     "toneladas fabricadas",
@@ -102,7 +102,7 @@ get_header();
                                 ); ?>
                             </h3>
                         </div>
-                        <div class="col-lg-4 col-xl-3 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                        <div class="col-lg-3 col-xl-4 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                             <h3>
                                 + <div id="counter-2" class="counter" data-target="400">0</div> <?php _e(
                                     "proyectos concluidos",
@@ -110,7 +110,7 @@ get_header();
                                 ); ?>
                             </h3>
                         </div>
-                        <div class="col-lg-4 col-xl-3 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                        <div class="col-lg-3 col-xl-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                             <h3>
                                 + <div id="counter-3" class="counter" data-target="1500000">0</div> <?php _e(
                                     "de metros cuadrados instalados",
