@@ -96,7 +96,7 @@ get_header();
                     <div class="row">
                         <div class="col-lg-4 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                             <h3>
-                                <span class="d-inline">+</span> <div id="counter-1" class="counter" data-target="50000">0</div> <?php _e(
+                                <span class="plus-sign">+</span> <div id="counter-1" class="counter" data-target="50000">0</div> <?php _e(
                                     "toneladas fabricadas",
                                     "comsa-steel"
                                 ); ?>
@@ -104,7 +104,7 @@ get_header();
                         </div>
                         <div class="col-lg-4 mb-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                             <h3>
-                                <span class="d-inline">+</span> <div id="counter-2" class="counter" data-target="400">0</div> <?php _e(
+                                <span class="plus-sign">+</span> <div id="counter-2" class="counter" data-target="400">0</div> <?php _e(
                                     "proyectos concluidos",
                                     "comsa-steel"
                                 ); ?>
@@ -112,7 +112,7 @@ get_header();
                         </div>
                         <div class="col-lg-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                             <h3>
-                                <span class="d-inline">+</span> <div id="counter-3" class="counter" data-target="1500000">0</div> <?php _e(
+                                <span class="plus-sign">+</span> <div id="counter-3" class="counter" data-target="1500000">0</div> <?php _e(
                                     "de metros cuadrados instalados",
                                     "comsa-steel"
                                 ); ?>
