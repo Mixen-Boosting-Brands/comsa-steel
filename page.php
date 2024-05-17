@@ -21,16 +21,21 @@ $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
                     </h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-1 mb-lg-">
                 <div class="col">
 					<?php the_content(); ?>
 
-					<a href="<?php echo esc_url(home_url()); ?>" class="btn btn-primary btn-lg">
+					<?php edit_post_link(); ?>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="<?php echo esc_url(
+                        home_url()
+                    ); ?>" class="btn bg-primary btn-lg">
 					   <i class="fa-solid fa-house"></i>
                         <?php _e("Regresar al inicio", "comsa-steel"); ?>
 					</a>
-
-					<?php edit_post_link(); ?>
                 </div>
             </div>
         </div>
