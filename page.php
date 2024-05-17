@@ -21,7 +21,7 @@ $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
                     </h1>
                 </div>
             </div>
-            <div class="row mb-1 mb-lg-3">
+            <div class="row mb-5">
                 <div class="col">
 					<?php the_content(); ?>
 
