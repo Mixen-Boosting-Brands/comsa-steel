@@ -182,7 +182,11 @@
                                 </a>
                             </li>
                             <li class="list-inline-item dropdown">
-                                <a href="javascript:void(0)" class="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a href="<?php if (!is_home()):
+                                    echo esc_url(home_url());
+                                endif; ?>#servicios" <?php if (
+    is_home()
+): ?>class="anchor"<?php endif; ?> type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <?php _e("Servicios", "comsa-steel"); ?>
                                 </a>
                                 <ul class="dropdown-menu">
