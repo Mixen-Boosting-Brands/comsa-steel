@@ -188,25 +188,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-4">
-                            <nav data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
-                                <ul class="list-unstyled">
-                                    <!-- li class="color-black">
-										<?php _e("Teléfonos", "comsa-steel"); ?>
-                                    </li>
-                                    <li>
-                                        <a href="tel:+526141234567">
-                                            +52 (614) 123 4567
-                                        </a>
-                                    </li>
-                                    <li class="mb-5">
-                                        <a href="tel:+526141234567">
-                                            +52 (614) 123 4567
-                                        </a>
-                                    </li -->
-                                </ul>
-                            </nav>
-                        </div>
+                        <div class="col-4"></div>
                     </div>
                 </div>
             </div>
