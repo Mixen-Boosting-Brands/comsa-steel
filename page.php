@@ -8,7 +8,7 @@ $post_thumbnail_id = get_post_thumbnail_id();
 $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
 ?>
 
-	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url; ?>">>
+	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url; ?>">
 		<div id="overlay"></div>
 	</section>
 
