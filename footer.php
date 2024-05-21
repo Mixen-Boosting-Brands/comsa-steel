@@ -138,7 +138,7 @@
                 </div>
                 <div class="col-lg-5 offset-lg-2 my-auto">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-8">
                             <nav data-aos="fade-up" data-aos-duration="1000">
                                 <ul class="list-unstyled">
                                     <li class="color-black">
@@ -188,7 +188,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-6">
+                        <div class="col-4">
                             <nav data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                                 <ul class="list-unstyled">
                                     <!-- li class="color-black">
