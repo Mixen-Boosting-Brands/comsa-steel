@@ -119,7 +119,11 @@ get_header();
                         <div class="col-lg-4 my-lg-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                             <h3>
                                 <div class="d-block">
+                                <?php if (!($currentlang == "en-US")): ?>
+                                    <span class="plus-sign">+</span> <div id="counter-3" class="counter" data-target="16000000">0</div>
+                                <?php else: ?>
                                     <span class="plus-sign">+</span> <div id="counter-3" class="counter" data-target="1500000">0</div>
+                                <?php endif; ?>
                                 </div>
                                 <?php _e(
                                     "de metros cuadrados instalados",

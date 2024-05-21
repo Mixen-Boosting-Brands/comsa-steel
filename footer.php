@@ -144,17 +144,25 @@
                                     <li class="color-black">
                                         <h3>
                                             <?php _e(
-                                                "Chihuahua",
+                                                "Oficinas centrales D1 Chihuahua",
                                                 "comsa-steel"
                                             ); ?>
                                         </h3>
                                     </li>
-                                    <li>
-                                        <address>
+                                    <li class="mb-5">
+                                        <address class="mb-0">
                                             Vía Lombardía 5705 Int. 305<br>
                                             Col. Saucito<br>
                                             Chihuahua, Chih. México
                                         </address>
+                                    </li>
+                                    <li class="color-black">
+                                        <h3>
+                                            <?php _e(
+                                                "Planta de Producción",
+                                                "comsa-steel"
+                                            ); ?>
+                                        </h3>
                                     </li>
                                     <li class="mb-5">
                                         <address class="mb-0">
@@ -246,7 +254,7 @@
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.5f2de9602ef47e03b8c4.bundle.js"></script>
+ ); ?>/assets/js/app.5bacf559f77dd14712df.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>
