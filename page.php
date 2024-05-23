@@ -33,8 +33,8 @@ $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
                     <a href="<?php echo esc_url(
                         home_url()
                     ); ?>" class="btn btn-home bg-primary btn-lg">
-					   <i class="fa-solid fa-house"></i>
-                        <?php _e("Regresar al inicio", "comsa-steel"); ?>
+					   <i class="fa-solid fa-arrow-left"></i>
+                        <?php _e("Regresar", "comsa-steel"); ?>
 					</a>
                 </div>
             </div>
