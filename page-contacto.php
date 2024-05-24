@@ -4,7 +4,7 @@
     */
 get_header(); ?>
 
-    <section id="banner">
+    <section id="banner" class="py-60">
         <div id="overlay"></div>
         <video autoplay muted loop playsinline id="background-video">
             <source src="<?php echo esc_url(
@@ -13,7 +13,7 @@ get_header(); ?>
             Your browser does not support the video tag.
         </video>
         <div class="container" style="position: relative; height: auto; z-index: 3;">
-            <div class="row" style="height: auto;">
+            <div class="row text-center" style="height: auto;">
                 <div class="col">
                     <hr>
                     <h1 style="color: #ffffff;">
