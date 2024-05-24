@@ -236,7 +236,7 @@
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.aba7c6c055e8c4e71c3d.bundle.js"></script>
+ ); ?>/assets/js/app.008d0a7ee444caecac4a.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>
