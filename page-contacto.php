@@ -13,7 +13,7 @@ get_header(); ?>
             Your browser does not support the video tag.
         </video>
         <div class="container" style="position: relative; z-index: 3;">
-            <div class="row" style="height: auto;">
+            <div class="row">
                 <div class="col">
                     <hr>
                     <h1 style="color: #ffffff;">
