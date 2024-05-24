@@ -4,7 +4,7 @@
     */
 get_header(); ?>
 
-    <section id="banner" class="py-60">
+    <section id="banner" class="py-60" style="display: flex; justify-content: center; align-items: center;">
         <div id="overlay"></div>
         <video autoplay muted loop playsinline id="background-video">
             <source src="<?php echo esc_url(
