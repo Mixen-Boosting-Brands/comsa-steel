@@ -467,7 +467,79 @@ get_header();
                     </h1>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row">
+                <div class="col">
+                    <!-- Slider main container -->
+                    <div class="swiper swiper-clientes-2">
+                        <div id="overlay"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper text-center">
+                            <!-- Slides -->
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-1.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-2.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-3.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-4.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-5.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-6.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-7.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-8.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-9.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-10.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-11.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
+                                <img class="logo-cliente" src="<?php echo esc_url(
+                                    get_template_directory_uri()
+                                ); ?>/assets/images/clientes-2/logo-12.png" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- div class="row mb-4">
                 <div class="col text-center">
                     <ul class="list-inline">
                         <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
@@ -497,8 +569,8 @@ get_header();
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
+            </div -->
+            <!-- div class="row">
                 <div class="col text-center">
                     <ul class="list-inline">
                         <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
@@ -528,8 +600,8 @@ get_header();
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
+            </div -->
+            <!-- div class="row">
                 <div class="col text-center">
                     <ul class="list-inline">
                         <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
@@ -544,7 +616,7 @@ get_header();
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div -->
         </div>
     </section>
 
