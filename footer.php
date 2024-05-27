@@ -1,3 +1,6 @@
+<?php
+$currentlang = get_bloginfo("language"); ?>
+
     <section id="contacto" class="common-light py-60">
         <div class="container">
             <div class="row mb-4">
