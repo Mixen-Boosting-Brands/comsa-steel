@@ -217,7 +217,11 @@
                     ); ?> <?php bloginfo("name"); ?>. <?php _e(
     "Todos los derechos reservados",
     "comsa-steel"
-); ?>. <a href="<?php echo get_permalink(3); ?>">
+); ?>. <a href="<?php if (!($currentlang == "en-US")):
+    echo get_permalink(3);
+else:
+    echo get_permalink(195);
+endif; ?>">
 <?php _e("Política de Privacidad", "comsa-steel"); ?>
 </a></p>
                 </div>
