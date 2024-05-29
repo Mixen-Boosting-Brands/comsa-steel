@@ -243,7 +243,7 @@ endif; ?>">
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.fbc0a0800ee9b38b08b5.bundle.js"></script>
+ ); ?>/assets/js/app.daa4fc9ff0abe4c1fcca.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>

@@ -39,7 +39,7 @@
 </head>
 <body <?php if (!is_home()): ?>class="is-single"<?php endif; ?>>
     <div id="backdrop"></div>
-    <div class="menu">
+    <div class="menu" style="opacity: 0;">
         <a id="cerrar-menu" href="javascript:void(0)">
             <i class="fas fa-times"></i>
         </a>
