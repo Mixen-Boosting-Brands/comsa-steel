@@ -1,0 +1,51 @@
+{
+  "name": "comsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build --mode=production",
+    "watch": "webpack --watch",
+    "sass": "sass --watch src/scss/main.scss:public/assets/css/styles.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mixen/comsa.git"
+  },
+  "author": "Luis Carlos Pando <hey@luiscarlospando.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mixen/comsa/issues"
+  },
+  "homepage": "https://gitlab.com/mixen/comsa#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "autoprefixer": "^10.4.19",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@popperjs/core": "^2.11.8",
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "jquery-parallax.js": "^1.5.0",
+    "masonry-layout": "^4.2.2",
+    "swiper": "^11.1.1"
+  }
+}
