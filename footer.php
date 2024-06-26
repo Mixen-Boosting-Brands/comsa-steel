@@ -147,6 +147,17 @@ $currentlang = get_bloginfo("language"); ?>
                                     <li class="color-black">
                                         <h3>
                                             <?php _e(
+                                                "Contact us",
+                                                "comsa-steel"
+                                            ); ?>
+                                        </h3>
+                                    </li>
+                                    <li class="mb-5">
+                                        <a href="mailto:sales@comsasteel.com">sales@comsasteel.com</a>
+                                    </li>
+                                    <li class="color-black">
+                                        <h3>
+                                            <?php _e(
                                                 "Oficinas centrales D1 Chihuahua",
                                                 "comsa-steel"
                                             ); ?>
