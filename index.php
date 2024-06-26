@@ -174,7 +174,7 @@ get_header();
                         ); ?>
                         <a class="d-inline" href="https://gposanfrancisco.com.mx/" target="_blank">Grupo San Francisco</a>
                         <?php _e(
-                            " el cual cuenta con otras divisiones como la división de restaurantes y la división wellness and fitness. Nuestro único propósito es ”Construir socios para toda la vida”.",
+                            ", el cual cuenta con otras divisiones como la división de restaurantes y la división wellness and fitness. Nuestro único propósito es ”Construir socios para toda la vida”.",
                             "comsa-steel"
                         ); ?>
                     </p>
