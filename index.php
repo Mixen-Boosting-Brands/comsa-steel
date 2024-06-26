@@ -169,7 +169,12 @@ get_header();
                     </h1 -->
                     <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                         <?php _e(
-                            "Somos una empresa mexicana con mas de 20 años en el mercado de la construcción expandiendo nuestra presencia en el mercado de EUA por medio de ampliar nuestras capacidades y  garantizar el más alto estandar. COMSA, forma parte de la división de construcción para Grupo San Francisco el cual cuenta con otras divisiones como la división de restaurantes y la división wellness and fitness. Nuestro único propósito es ”Construir socios para toda la vida”.",
+                            "Somos una empresa mexicana con mas de 20 años en el mercado de la construcción expandiendo nuestra presencia en el mercado de EUA por medio de ampliar nuestras capacidades y  garantizar el más alto estandar. COMSA, forma parte de la división de construcción para ",
+                            "comsa-steel"
+                        ); ?>
+                        <a class="d-inline" href="https://gposanfrancisco.com.mx/" target="_blank">Grupo San Francisco</a>
+                        <?php _e(
+                            " el cual cuenta con otras divisiones como la división de restaurantes y la división wellness and fitness. Nuestro único propósito es ”Construir socios para toda la vida”.",
                             "comsa-steel"
                         ); ?>
                     </p>
