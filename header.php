@@ -141,11 +141,7 @@
             <div id="contacto-menu">
                 <ul class="list-unstyled">
                     <li>
-                        <i class="far fa-envelope"></i> <a href="<?php if (
-                            $currentlang == "en-US"
-                        ): ?>mailto:joserios@comsasteel.com<?php else: ?>mailto:dhernandez@comsaestructuras.com<?php endif; ?>"><?php if (
-    $currentlang == "en-US"
-): ?>joserios@comsasteel.com<?php else: ?>dhernandez@comsaestructuras.com<?php endif; ?></a>
+                        <i class="far fa-envelope"></i> <a href="sales@comsasteel.com">sales@comsasteel.com</a>
                     </li>
                     <!-- li>
                         <i class="fas fa-phone"></i> <a href="tel:+526141234567">(614) 123 4567</a>
