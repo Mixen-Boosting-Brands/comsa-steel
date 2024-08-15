@@ -27,7 +27,7 @@ $categories = get_the_category();
 					<h1 class="titulo">
                         <span class="fs-4"><?php the_title(); ?></span>
                     </h1>
-                    <p class="subtitulo">
+                    <!-- p class="subtitulo">
                         <small>
 						<?php
       // Get the author's name
@@ -48,7 +48,7 @@ $categories = get_the_category();
           $published_time;
       ?>
 						</small>
-                    </p>
+                    </p -->
                 </div>
             </div>
             <div class="row">
