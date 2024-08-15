@@ -40,11 +40,11 @@ $categories = get_the_category();
       $published_time = get_the_time("g:i a");
 
       // Output the post data
-      echo "Por " .
+      echo _e("Por ", "comsa-steel") .
           $author_name .
-          " el " .
+          _e(" el ", "comsa-steel") .
           $post_date .
-          " a la(s) " .
+          _e(" a la(s) ", "comsa-steel") .
           $published_time;
       ?>
 						</small>
