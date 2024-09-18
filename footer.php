@@ -18,14 +18,126 @@ $currentlang = get_bloginfo("language"); ?>
                             "comsa-steel"
                         ); ?></span>
                     </h3>
-                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-                    <script>
-                      hbspt.forms.create({
-                        region: "na1",
-                        portalId: "47437591",
-                        formId: "eea6dc20-dd3c-479f-96fd-25f4e8ad97f6"
-                      });
-                    </script>
+                    <!-- Aquí se inyecta feedback a usuario vía Ajax -->
+                    <div id="form-messages"></div>
+                    <!-- /Aquí se inyecta feedback a usuario vía Ajax -->
+                    <form data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" action="<?php echo esc_url(
+                        get_template_directory_uri()
+                    ); ?>/mailer.php" method="POST" class="row g-3 needs-validation contact-form mb-4 mb-lg-0" id="ajax-contact" novalidate>
+                        <div class="col-md-12 form-floating">
+                            <input type="text" class="form-control shadow-none" id="firstname" name="firstname" placeholder="<?php _e(
+                                "Nombre completo*",
+                                "comsa-steel"
+                            ); ?>"
+                                pattern=".{5,50}" required>
+                            <label for="firstname" class="form-label"><?php _e(
+                                "Nombre completo*",
+                                "comsa-steel"
+                            ); ?></label>
+                            <div class="valid-feedback">
+                                <?php _e("¡Se ve bien!", "comsa-steel"); ?>
+                            </div>
+                            <div class="invalid-feedback">
+                                <?php _e(
+                                    "Por favor introduce tu nombre completo.",
+                                    "comsa-steel"
+                                ); ?>
+                            </div>
+                        </div>
+                        <div class="col-md-12 form-floating">
+                            <input type="email" class="form-control shadow-none" id="email" name="email" placeholder="<?php _e(
+                                "Email*",
+                                "comsa-steel"
+                            ); ?>"
+                                required>
+                            <label for="email" class="form-label"><?php _e(
+                                "Email*",
+                                "comsa-steel"
+                            ); ?></label>
+                            <div class="valid-feedback">
+                                <?php _e("¡Se ve bien!", "comsa-steel"); ?>
+                            </div>
+                            <div class="invalid-feedback">
+                                <?php _e(
+                                    "Por favor introduce un correo electrónico válido.",
+                                    "comsa-steel"
+                                ); ?>
+                            </div>
+                        </div>
+                        <div class="col-md-12 form-floating">
+                            <input type="tel" class="form-control shadow-none" id="phone" name="phone" placeholder="<?php _e(
+                                "Teléfono*",
+                                "comsa-steel"
+                            ); ?>"
+                                required>
+                            <label for="phone" class="form-label"><?php _e(
+                                "Teléfono*",
+                                "comsa-steel"
+                            ); ?></label>
+                            <div class="valid-feedback">
+                                <?php _e("¡Se ve bien!", "comsa-steel"); ?>
+                            </div>
+                            <div class="invalid-feedback">
+                                <?php _e(
+                                    "Por favor introduce un teléfono válido.",
+                                    "comsa-steel"
+                                ); ?>
+                            </div>
+                        </div>
+                        <div class="col-md-12 form-floating mb-4">
+                            <input type="text" class="form-control shadow-none" id="company" name="company" placeholder="<?php _e(
+                                "Empresa*",
+                                "comsa-steel"
+                            ); ?>"
+                                pattern=".{5,50}" required>
+                            <label for="company" class="form-label"><?php _e(
+                                "Empresa*",
+                                "comsa-steel"
+                            ); ?></label>
+                            <div class="valid-feedback">
+                                <?php _e("¡Se ve bien!", "comsa-steel"); ?>
+                            </div>
+                            <div class="invalid-feedback">
+                                <?php _e(
+                                    "Por favor introduce un nombre de empresa válido.",
+                                    "comsa-steel"
+                                ); ?>
+                            </div>
+                        </div>
+                        <!-- div class="col-md-12 form-floating mb-4">
+                            <textarea class="form-control shadow-none" id="mensaje" name="mensaje" placeholder="<?php _e(
+                                "Escribe tu mensaje*",
+                                "comsa-steel"
+                            ); ?>" style="height: 100px;" required></textarea>
+                            <label for="mensaje"><?php _e(
+                                "Escribe tu mensaje*",
+                                "comsa-steel"
+                            ); ?></label>
+                            <div class="valid-feedback">
+                                <?php _e("¡Se ve bien!", "comsa-steel"); ?>
+                            </div>
+                            <div class="invalid-feedback">
+                                <?php _e(
+                                    "Por favor introduce tu mensaje.",
+                                    "comsa-steel"
+                                ); ?>
+                            </div>
+                        </div -->
+                        <div class="col-12 my-auto text-start">
+                            <button type="submit" class="btn bg-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> <?php _e(
+                                    "Enviar",
+                                    "comsa-steel"
+                                ); ?>
+                            </button>
+                            <div id="hold-on-a-sec">
+                                <i id="contact-spinner" class="fas fa-spinner fa-spin"></i> <?php _e(
+                                    "Espera un momento por favor...",
+                                    "comsa-steel"
+                                ); ?>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-lg-5 offset-lg-2 my-auto">
                     <div class="row">
@@ -142,11 +254,7 @@ endif; ?>">
 
 	<script defer src="<?php echo esc_url(
      get_template_directory_uri()
- ); ?>/assets/js/app.f099ed1add2b45d602dc.bundle.js"></script>
-
-	<!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/47437591.js"></script>
-    <!-- End of HubSpot Embed Code -->
+ ); ?>/assets/js/app.50b71c6ea6f11ad196ff.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25C4HNG5N"></script>
