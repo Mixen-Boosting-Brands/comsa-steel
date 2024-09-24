@@ -137,7 +137,7 @@ get_header();
         </div>
     </section>
 
-    <section id="video" class="py-60">
+    <section id="video" class="video py-60">
         <div class="container">
             <div class="row">
                 <div class="col">
