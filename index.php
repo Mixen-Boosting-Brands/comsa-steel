@@ -519,6 +519,16 @@ get_header();
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-12.png" alt="" class="img-fluid" loading="lazy">
                         </li>
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="3250">
+                            <img class="logo-cliente logo-confian" src="<?php echo esc_url(
+                                get_template_directory_uri()
+                            ); ?>/assets/images/clientes-2/logo-13.png" alt="" class="img-fluid" loading="lazy">
+                        </li>
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="3500">
+                            <img class="logo-cliente logo-confian" src="<?php echo esc_url(
+                                get_template_directory_uri()
+                            ); ?>/assets/images/clientes-2/logo-14.png" alt="" class="img-fluid" loading="lazy">
+                        </li>
                     </ul>
                 </div>
             </div>
