@@ -617,12 +617,12 @@ get_header();
 if ($currentlang == "en-US") {
     $args = [
         "category_name" => "news", // Specify the category slug here
-        "posts_per_page" => -1, // Use -1 to fetch all posts from the category
+        "posts_per_page" => 1, // Use -1 to fetch all posts from the category
     ];
 } else {
     $args = [
         "category_name" => "noticias", // Specify the category slug here
-        "posts_per_page" => -1, // Use -1 to fetch all posts from the category
+        "posts_per_page" => 1, // Use -1 to fetch all posts from the category
     ];
 }
 
@@ -677,11 +677,17 @@ if ($blogQuery->have_posts()):
                         <div class="tab-pane fade show active" id="nav-cat-1" role="tabpanel" aria-labelledby="nav-cat-1-tab" tabindex="0">
                             <div class="row">
                             <?php
-                            $args = [
-                                "category_name" => "noticias", // Specify the category slug here
-                                "posts_per_page" => 2, // Use -1 to fetch all posts from the category
-                                // 'orderby' => 'rand',
-                            ];
+                            if ($currentlang == "en-US") {
+                                $args = [
+                                    "category_name" => "news", // Specify the category slug here
+                                    "posts_per_page" => 2, // Use -1 to fetch all posts from the category
+                                ];
+                            } else {
+                                $args = [
+                                    "category_name" => "noticias", // Specify the category slug here
+                                    "posts_per_page" => 2, // Use -1 to fetch all posts from the category
+                                ];
+                            }
 
                             $query = new WP_Query($args);
 
@@ -738,11 +744,19 @@ if ($blogQuery->have_posts()):
                         <div class="tab-pane fade" id="nav-cat-<?php echo $counterTabs; ?>" role="tabpanel" aria-labelledby="nav-cat-<?php echo $counterTabs; ?>-tab" tabindex="0">
                             <div class="row">
                             <?php
-                            $args = [
-                                "category_name" => "noticias", // Specify the category slug here
-                                "posts_per_page" => 2, // Use -1 to fetch all posts from the category
-                                "tag__in" => [$tag->term_id], // Pass an array of tag IDs
-                            ];
+                            if ($currentlang == "en-US") {
+                                $args = [
+                                    "category_name" => "news", // Specify the category slug here
+                                    "posts_per_page" => 2, // Use -1 to fetch all posts from the category
+                                    "tag__in" => [$tag->term_id], // Pass an array of tag IDs
+                                ];
+                            } else {
+                                $args = [
+                                    "category_name" => "noticias", // Specify the category slug here
+                                    "posts_per_page" => 2, // Use -1 to fetch all posts from the category
+                                    "tag__in" => [$tag->term_id], // Pass an array of tag IDs
+                                ];
+                            }
 
                             $query = new WP_Query($args);
 
