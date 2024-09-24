@@ -459,72 +459,72 @@ get_header();
             <div class="row">
                 <div class="col text-center">
                     <ul class="list-inline">
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-1.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-2.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-3.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-4.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-5.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-6.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1750">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-7.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-8.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-9.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2500">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-10.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2750">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-11.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="3000">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-12.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="3250">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-13.png" alt="" class="img-fluid" loading="lazy">
                         </li>
-                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="3500">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
                             <img class="logo-cliente logo-confian" src="<?php echo esc_url(
                                 get_template_directory_uri()
                             ); ?>/assets/images/clientes-2/logo-14.png" alt="" class="img-fluid" loading="lazy">
@@ -613,11 +613,19 @@ get_header();
         </div>
     </section>
 
+    <?php if (!($currentlang == "en-US")): ?>
 <?php
-$args = [
-    "category_name" => "noticias", // Specify the category slug here
-    "posts_per_page" => 1, // Use -1 to fetch all posts from the category
-];
+if (!($currentlang == "en-US")) {
+    $args = [
+        "category_name" => "news", // Specify the category slug here
+        "posts_per_page" => -1, // Use -1 to fetch all posts from the category
+    ];
+} else {
+    $args = [
+        "category_name" => "noticias", // Specify the category slug here
+        "posts_per_page" => -1, // Use -1 to fetch all posts from the category
+    ];
+}
 
 $blogQuery = new WP_Query($args);
 if ($blogQuery->have_posts()):
