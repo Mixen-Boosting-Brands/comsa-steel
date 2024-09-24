@@ -613,9 +613,8 @@ get_header();
         </div>
     </section>
 
-    <?php if (!($currentlang == "en-US")): ?>
 <?php
-if ( $currentlang == "en-US" ) {
+if ($currentlang == "en-US") {
     $args = [
         "category_name" => "news", // Specify the category slug here
         "posts_per_page" => -1, // Use -1 to fetch all posts from the category
