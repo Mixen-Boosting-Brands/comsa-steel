@@ -653,7 +653,7 @@ if ($blogQuery->have_posts()):
                             <nav>
                                 <div class="navs d-flex flex-wrap justify-content-start" id="nav-tab" role="tablist">
                                     <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                        Todas
+                                        <?php _e("Todas", "comsa-steel"); ?>
                                     </button>
                                 <?php
                                 $tags = get_tags();
@@ -684,12 +684,10 @@ if ($blogQuery->have_posts()):
                             <?php
                             if ($currentlang == "en-US") {
                                 $args = [
-                                    "category_name" => "news", // Specify the category slug here
                                     "posts_per_page" => 2, // Use -1 to fetch all posts from the category
                                 ];
                             } else {
                                 $args = [
-                                    "category_name" => "noticias", // Specify the category slug here
                                     "posts_per_page" => 2, // Use -1 to fetch all posts from the category
                                 ];
                             }
