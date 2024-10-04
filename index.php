@@ -684,11 +684,11 @@ if ($blogQuery->have_posts()):
                             <?php
                             if ($currentlang == "en-US") {
                                 $args = [
-                                    "posts_per_page" => 2, // Use -1 to fetch all posts from the category
+                                    "posts_per_page" => 4, // Use -1 to fetch all posts from the category
                                 ];
                             } else {
                                 $args = [
-                                    "posts_per_page" => 2, // Use -1 to fetch all posts from the category
+                                    "posts_per_page" => 4, // Use -1 to fetch all posts from the category
                                 ];
                             }
 
@@ -750,13 +750,13 @@ if ($blogQuery->have_posts()):
                             if ($currentlang == "en-US") {
                                 $args = [
                                     "category_name" => "news", // Specify the category slug here
-                                    "posts_per_page" => 2, // Use -1 to fetch all posts from the category
+                                    "posts_per_page" => 4, // Use -1 to fetch all posts from the category
                                     "tag__in" => [$tag->term_id], // Pass an array of tag IDs
                                 ];
                             } else {
                                 $args = [
                                     "category_name" => "noticias", // Specify the category slug here
-                                    "posts_per_page" => 2, // Use -1 to fetch all posts from the category
+                                    "posts_per_page" => 4, // Use -1 to fetch all posts from the category
                                     "tag__in" => [$tag->term_id], // Pass an array of tag IDs
                                 ];
                             }
