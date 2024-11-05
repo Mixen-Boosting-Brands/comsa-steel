@@ -308,7 +308,9 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="<?php if ($currentlang == "en-US"):
+                                <a class="btn btn-secondary" href="<?php if (
+                                    $currentlang == "en-US"
+                                ):
                                     echo get_permalink(43);
                                 else:
                                     echo get_permalink(2);
