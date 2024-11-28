@@ -18,6 +18,16 @@ $currentlang = get_bloginfo("language");
             <div class="row text-center" style="height: auto;">
             <?php if ($currentlang == "en-US"): ?>
                 <div class="col">
+                    <hr>
+                    <h1 style="color: #ffffff;">
+                        <?php _e(
+                            "Cotiza",
+                            "comsa-steel"
+                        ); ?> <span class="color-primary"><?php _e(
+     "tu proyecto",
+     "comsa-steel"
+ ); ?></span>
+                    </h1>
                     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
                     <script>
                       hbspt.forms.create({
@@ -28,6 +38,16 @@ $currentlang = get_bloginfo("language");
                 </div>
             <?php else: ?>
                 <div class="col">
+                    <hr>
+                    <h1 style="color: #ffffff;">
+                        <?php _e(
+                            "Cotiza",
+                            "comsa-steel"
+                        ); ?> <span class="color-primary"><?php _e(
+     "tu proyecto",
+     "comsa-steel"
+ ); ?></span>
+                    </h1>
                     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
                     <script>
                       hbspt.forms.create({
