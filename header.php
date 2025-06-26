@@ -151,7 +151,7 @@
         </div>
     </div>
 
-    <header id="navbar">
+    <header id="navbar" style="background-color: #000000;">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-xl-2 my-auto">
