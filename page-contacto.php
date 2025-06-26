@@ -7,7 +7,7 @@ $currentlang = get_bloginfo("language");
 ?>
 
     <section id="banner" class="py-60" style="display: flex; justify-content: center; align-items: center;" style="background-color: #A9A9A9;">
-        <div id="overlay"></div>
+        <!-- div id="overlay"></div>
         <!-- video autoplay muted loop playsinline id="background-video">
             <source src="<?php echo esc_url(
                 get_template_directory_uri()
