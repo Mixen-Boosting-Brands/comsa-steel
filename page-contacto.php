@@ -6,7 +6,7 @@ get_header();
 $currentlang = get_bloginfo("language");
 ?>
 
-    <section id="banner" class="py-60" style="display: flex; justify-content: center; align-items: center;" style="background-color: #A9A9A9;">
+    <section id="banner" class="py-60" style="display: flex; justify-content: center; align-items: center; background-color: #A9A9A9;">
         <!-- div id="overlay"></div>
         <!-- video autoplay muted loop playsinline id="background-video">
             <source src="<?php echo esc_url(
