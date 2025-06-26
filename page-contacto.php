@@ -19,7 +19,7 @@ $currentlang = get_bloginfo("language");
             <?php if ($currentlang == "en-US"): ?>
                 <div class="col">
                     <hr>
-                    <h1 style="color: #ffffff;">
+                    <h1>
                         <?php _e(
                             "Cotiza",
                             "comsa-steel"
