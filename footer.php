@@ -137,9 +137,11 @@ else:
 <?php
 endif; ?>
 
+<?php if (is_home()): ?>
     <section id="mapa">
         <iframe width="100%" height="400" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.9209912813026!2d-106.13032662287874!3d28.662084275648596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea43f9e7481a1d%3A0xf17591f5437a4a8c!2sV%C3%ADa%20Lombard%C3%ADa%205705%2C%20Saucito%2C%2031110%20Chihuahua%2C%20Chih.!5e0!3m2!1ses-419!2smx!4v1713584875438!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
+<?php endif; ?>
 
     <footer>
         <div class="container">
