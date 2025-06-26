@@ -7,13 +7,13 @@ $currentlang = get_bloginfo("language");
 ?>
 
     <section id="banner" class="py-60" style="display: flex; justify-content: center; align-items: center;">
-        <div id="overlay"></div>
-        <video autoplay muted loop playsinline id="background-video">
+        <!-- div id="overlay"></div -->
+        <!-- video autoplay muted loop playsinline id="background-video">
             <source src="<?php echo esc_url(
                 get_template_directory_uri()
             ); ?>/assets/videos/bg-video.mp4" type="video/mp4"">
             Your browser does not support the video tag.
-        </video>
+        </video -->
         <div class="container" style="position: relative; height: auto; z-index: 3;">
             <div class="row text-center" style="height: auto;">
             <?php if ($currentlang == "en-US"): ?>
